@@ -1,0 +1,2488 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "city": "Formosa Capital",
+    "province": "Formosa",
+    "country": "Argentina",
+    "totalBarrios": 56,
+    "sources": "OpenStreetMap (ODbL), Nominatim, Código Urbanístico Municipal de Formosa e IDEF"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "san-martin",
+        "numero": 1,
+        "name": "Barrio San Martín (Centro)",
+        "zone": "Centro y Casco Histórico",
+        "limits": "Av. Costanera (Río Paraguay), Av. González Lelong, Av. 9 de Julio y Av. Napoleón Uriburu (abarca San Martín Norte y Sur).",
+        "description": "Casco fundacional y microcentro administrativo, comercial e histórico de la Ciudad de Formosa alrededor de la Plaza San Martín.",
+        "color": "#E63946",
+        "zoneColor": "#2563EB",
+        "centerLat": -26.18364,
+        "centerLon": -58.16784
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.169912,
+              -26.19284
+            ],
+            [
+              -58.161876,
+              -26.190175
+            ],
+            [
+              -58.163146,
+              -26.18421
+            ],
+            [
+              -58.167957,
+              -26.174098
+            ],
+            [
+              -58.176288,
+              -26.17686
+            ],
+            [
+              -58.169912,
+              -26.19284
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "independencia",
+        "numero": 2,
+        "name": "Barrio Independencia",
+        "zone": "Centro y Casco Histórico",
+        "limits": "Av. 25 de Mayo, Av. 9 de Julio, Av. González Lelong y Av. Pantaleón Gómez.",
+        "description": "Tradicional barrio residencial del casco histórico noroeste, creado por Ordenanza 288/66.",
+        "color": "#2A9D8F",
+        "zoneColor": "#2563EB",
+        "centerLat": -26.18248,
+        "centerLon": -58.17959
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.1829,
+              -26.1881
+            ],
+            [
+              -58.1731,
+              -26.18485
+            ],
+            [
+              -58.176288,
+              -26.17686
+            ],
+            [
+              -58.186087,
+              -26.18011
+            ],
+            [
+              -58.1829,
+              -26.1881
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "don-bosco",
+        "numero": 3,
+        "name": "Barrio Don Bosco",
+        "zone": "Centro y Casco Histórico",
+        "limits": "Av. 25 de Mayo, Av. 9 de Julio, Av. Napoleón Uriburu y Av. Pantaleón Gómez.",
+        "description": "Barrio tradicional céntrico-residencial, sede de históricas instituciones educativas salesianas.",
+        "color": "#E9C46A",
+        "zoneColor": "#2563EB",
+        "centerLat": -26.19047,
+        "centerLon": -58.17641
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.179712,
+              -26.19609
+            ],
+            [
+              -58.169912,
+              -26.19284
+            ],
+            [
+              -58.1731,
+              -26.18485
+            ],
+            [
+              -58.1829,
+              -26.1881
+            ],
+            [
+              -58.179712,
+              -26.19609
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "san-miguel",
+        "numero": 4,
+        "name": "Barrio San Miguel",
+        "zone": "Centro y Casco Histórico",
+        "limits": "Av. González Lelong, Av. Sargento Cabral, vías del FFCC / Riacho Formosa y calle Hipólito Marcial Rojas.",
+        "description": "Histórico barrio fundacional conocido como la antigua Chacra 8, próximo al Regimiento de Infantería de Monte 29.",
+        "color": "#F4A261",
+        "zoneColor": "#2563EB",
+        "centerLat": -26.17148,
+        "centerLon": -58.17372
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.176288,
+              -26.17686
+            ],
+            [
+              -58.167957,
+              -26.174098
+            ],
+            [
+              -58.171145,
+              -26.166108
+            ],
+            [
+              -58.179475,
+              -26.16887
+            ],
+            [
+              -58.176288,
+              -26.17686
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "san-francisco",
+        "numero": 5,
+        "name": "Barrio San Francisco",
+        "zone": "Centro y Casco Histórico",
+        "limits": "Av. González Lelong, Av. Sargento Cabral (continuación Pantaleón Gómez), Av. 9 de Julio y Av. Gobernador Fotheringham / Brandsen norte.",
+        "description": "Uno de los barrios residenciales más extensos y tradicionales al norte de la Av. González Lelong (Chacra 25).",
+        "color": "#264653",
+        "zoneColor": "#2563EB",
+        "centerLat": -26.17449,
+        "centerLon": -58.18278
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.186087,
+              -26.18011
+            ],
+            [
+              -58.176288,
+              -26.17686
+            ],
+            [
+              -58.179475,
+              -26.16887
+            ],
+            [
+              -58.189275,
+              -26.17212
+            ],
+            [
+              -58.186087,
+              -26.18011
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "fontana",
+        "numero": 6,
+        "name": "Barrio Comandante Fontana",
+        "zone": "Centro y Casco Histórico",
+        "limits": "Av. Pantaleón Gómez, Av. Dr. Luis Gutnisky, Av. Néstor Kirchner y Av. Italia.",
+        "description": "Sector tradicional inmediatamente al oeste de la Av. Pantaleón Gómez, conectado con el microcentro.",
+        "color": "#8AB17D",
+        "zoneColor": "#2563EB",
+        "centerLat": -26.18524,
+        "centerLon": -58.18792
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.18976,
+              -26.190375
+            ],
+            [
+              -58.1829,
+              -26.1881
+            ],
+            [
+              -58.186087,
+              -26.18011
+            ],
+            [
+              -58.192948,
+              -26.182385
+            ],
+            [
+              -58.18976,
+              -26.190375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "virgen-del-pilar",
+        "numero": 7,
+        "name": "Barrio Virgen del Pilar (La Pilar)",
+        "zone": "Centro y Casco Histórico",
+        "limits": "Av. Dr. Luis Gutnisky, Av. Pantaleón Gómez, calle José María Uriburu y Av. Antártida Argentina.",
+        "description": "Barrio residencial consolidado en torno a la Plaza Intendente Borraspardo y la calle José María Uriburu.",
+        "color": "#B5838D",
+        "zoneColor": "#2563EB",
+        "centerLat": -26.1917,
+        "centerLon": -58.18701
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.191125,
+              -26.195298
+            ],
+            [
+              -58.181325,
+              -26.192048
+            ],
+            [
+              -58.1829,
+              -26.1881
+            ],
+            [
+              -58.1927,
+              -26.19135
+            ],
+            [
+              -58.191125,
+              -26.195298
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "obrero",
+        "numero": 8,
+        "name": "Barrio Obrero",
+        "zone": "Centro y Casco Histórico",
+        "limits": "Calle José María Uriburu, Av. Pantaleón Gómez, Av. Napoleón Uriburu y Av. Antártida Argentina.",
+        "description": "Histórica barriada semicéntrica de trazado en damero entre La Pilar y Av. Napoleón Uriburu.",
+        "color": "#6D597A",
+        "zoneColor": "#2563EB",
+        "centerLat": -26.19569,
+        "centerLon": -58.18542
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.189512,
+              -26.19934
+            ],
+            [
+              -58.179712,
+              -26.19609
+            ],
+            [
+              -58.181325,
+              -26.192048
+            ],
+            [
+              -58.191125,
+              -26.195298
+            ],
+            [
+              -58.189512,
+              -26.19934
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "san-jose-obrero",
+        "numero": 9,
+        "name": "Barrio San José Obrero",
+        "zone": "Centro y Casco Histórico",
+        "limits": "Av. Napoleón Uriburu, Av. 9 de Julio extendida, terraplén sur y calle Alfonso Ruggiero.",
+        "description": "Emblemático barrio del sector sur-este del casco histórico, lindero a la ribera y a la Av. Napoleón Uriburu.",
+        "color": "#3A86FF",
+        "zoneColor": "#2563EB",
+        "centerLat": -26.19517,
+        "centerLon": -58.16732
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.171093,
+              -26.199617
+            ],
+            [
+              -58.161293,
+              -26.196368
+            ],
+            [
+              -58.163542,
+              -26.190728
+            ],
+            [
+              -58.173342,
+              -26.193977
+            ],
+            [
+              -58.171093,
+              -26.199617
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "villa-hermosa",
+        "numero": 10,
+        "name": "Barrio Villa Hermosa",
+        "zone": "Centro y Casco Histórico",
+        "limits": "Av. Napoleón Uriburu, calle Salta, terraplén de defensa sur y Barrio Santa Rosa.",
+        "description": "Sector tradicional al sur de la Av. Napoleón Uriburu, sede del Centro de Salud Villa Hermosa.",
+        "color": "#8338EC",
+        "zoneColor": "#2563EB",
+        "centerLat": -26.19793,
+        "centerLon": -58.17565
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.177952,
+              -26.201892
+            ],
+            [
+              -58.171093,
+              -26.199617
+            ],
+            [
+              -58.173342,
+              -26.193977
+            ],
+            [
+              -58.180202,
+              -26.196252
+            ],
+            [
+              -58.177952,
+              -26.201892
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "santa-rosa",
+        "numero": 11,
+        "name": "Barrio Santa Rosa",
+        "zone": "Centro y Casco Histórico",
+        "limits": "Av. Napoleón Uriburu, Barrio Villa Hermosa, Barrio Obrero y defensas del sector sur.",
+        "description": "Barrio residencial ubicado al sur de la Av. Napoleón Uriburu, contiguo a Villa Hermosa y Barrio Obrero.",
+        "color": "#FF006E",
+        "zoneColor": "#2563EB",
+        "centerLat": -26.20021,
+        "centerLon": -58.18251
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.184812,
+              -26.204168
+            ],
+            [
+              -58.177952,
+              -26.201892
+            ],
+            [
+              -58.180202,
+              -26.196252
+            ],
+            [
+              -58.187062,
+              -26.198528
+            ],
+            [
+              -58.184812,
+              -26.204168
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mariano-moreno",
+        "numero": 12,
+        "name": "Barrio Mariano Moreno",
+        "zone": "Oeste y Corredor Gutnisky",
+        "limits": "Av. Dr. Luis Gutnisky, Av. Antártida Argentina, Av. Napoleón Uriburu y Av. J. M. de Pueyrredón.",
+        "description": "Importante y populoso barrio (antigua Villa Luisa), próximo a la Terminal de Ómnibus y la UNaF.",
+        "color": "#FB5607",
+        "zoneColor": "#059669",
+        "centerLat": -26.19697,
+        "centerLon": -58.19601
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.199312,
+              -26.20259
+            ],
+            [
+              -58.189512,
+              -26.19934
+            ],
+            [
+              -58.1927,
+              -26.19135
+            ],
+            [
+              -58.2025,
+              -26.1946
+            ],
+            [
+              -58.199312,
+              -26.20259
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "virgen-del-rosario",
+        "numero": 13,
+        "name": "Barrio Virgen del Rosario (Villa del Rosario)",
+        "zone": "Oeste y Corredor Gutnisky",
+        "limits": "Av. Dr. Luis Gutnisky, Av. J. M. de Pueyrredón, Av. Arturo Illia y calle Ayacucho / sector UNaF.",
+        "description": "Sector residencial ubicado sobre el corredor sur de la Av. Gutnisky y la calle Ayacucho, lindero al campus de la UNaF.",
+        "color": "#FFBE0B",
+        "zoneColor": "#059669",
+        "centerLat": -26.20022,
+        "centerLon": -58.20581
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.209112,
+              -26.20584
+            ],
+            [
+              -58.199312,
+              -26.20259
+            ],
+            [
+              -58.2025,
+              -26.1946
+            ],
+            [
+              -58.2123,
+              -26.19785
+            ],
+            [
+              -58.209112,
+              -26.20584
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "san-juan-bautista",
+        "numero": 14,
+        "name": "Barrio San Juan Bautista",
+        "zone": "Oeste y Corredor Gutnisky",
+        "limits": "Av. Dr. Luis Gutnisky, Av. Arturo Illia, Barrio Laura Vicuña y vías del FFCC.",
+        "description": "Barrio consolidado sobre el corredor suroeste de la Av. Gutnisky entre Av. Illia y Ruta 11.",
+        "color": "#06D6A0",
+        "zoneColor": "#059669",
+        "centerLat": -26.2029,
+        "centerLon": -58.21389
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.215482,
+              -26.207953
+            ],
+            [
+              -58.209112,
+              -26.20584
+            ],
+            [
+              -58.2123,
+              -26.19785
+            ],
+            [
+              -58.21867,
+              -26.199963
+            ],
+            [
+              -58.215482,
+              -26.207953
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "laura-vicuna",
+        "numero": 15,
+        "name": "Barrio Laura Vicuña",
+        "zone": "Oeste y Corredor Gutnisky",
+        "limits": "Av. Dr. Luis Gutnisky, Av. Gendarmería Nacional (RN 11), Barrio San Juan Bautista y sector sur.",
+        "description": "Sector residencial situado en la intersección del corredor Gutnisky y la Av. Gendarmería Nacional (Ruta 11).",
+        "color": "#118AB2",
+        "zoneColor": "#059669",
+        "centerLat": -26.20501,
+        "centerLon": -58.22026
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.221852,
+              -26.210065
+            ],
+            [
+              -58.215482,
+              -26.207953
+            ],
+            [
+              -58.21867,
+              -26.199963
+            ],
+            [
+              -58.22504,
+              -26.202075
+            ],
+            [
+              -58.221852,
+              -26.210065
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "guadalupe",
+        "numero": 16,
+        "name": "Barrio Guadalupe",
+        "zone": "Oeste y Corredor Gutnisky",
+        "limits": "Av. Néstor Kirchner, Av. Antártida Argentina, Av. Italia y Av. Dr. Luis Gutnisky.",
+        "description": "Complejo habitacional y residencial atravesado por la Av. Antártida Argentina y calle Corrientes.",
+        "color": "#EF476F",
+        "zoneColor": "#059669",
+        "centerLat": -26.18719,
+        "centerLon": -58.1938
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.19466,
+              -26.192
+            ],
+            [
+              -58.18976,
+              -26.190375
+            ],
+            [
+              -58.192948,
+              -26.182385
+            ],
+            [
+              -58.197848,
+              -26.18401
+            ],
+            [
+              -58.19466,
+              -26.192
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "la-floresta",
+        "numero": 17,
+        "name": "Barrio La Floresta",
+        "zone": "Oeste y Corredor Gutnisky",
+        "limits": "Av. Néstor Kirchner, calle Florentino Ameghino, Barrio Guadalupe y Barrio San Cayetano.",
+        "description": "Tradicional sector residencial intermedio ubicado entre los corredores de Av. Kirchner y Av. Gutnisky.",
+        "color": "#073B4C",
+        "zoneColor": "#059669",
+        "centerLat": -26.18857,
+        "centerLon": -58.19797
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.19809,
+              -26.193138
+            ],
+            [
+              -58.19466,
+              -26.192
+            ],
+            [
+              -58.197848,
+              -26.18401
+            ],
+            [
+              -58.201278,
+              -26.185148
+            ],
+            [
+              -58.19809,
+              -26.193138
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "san-cayetano",
+        "numero": 18,
+        "name": "Barrio San Cayetano",
+        "zone": "Oeste y Corredor Gutnisky",
+        "limits": "Av. Dr. Luis Gutnisky, Av. Néstor Kirchner, Av. Pueyrredón y Barrio La Floresta.",
+        "description": "Populoso barrio del sector centro-oeste entre las avenidas Gutnisky y Néstor Kirchner.",
+        "color": "#7209B7",
+        "zoneColor": "#059669",
+        "centerLat": -26.19012,
+        "centerLon": -58.20262
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.20397,
+              -26.195087
+            ],
+            [
+              -58.19809,
+              -26.193138
+            ],
+            [
+              -58.201278,
+              -26.185148
+            ],
+            [
+              -58.207158,
+              -26.187098
+            ],
+            [
+              -58.20397,
+              -26.195087
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "coluccio",
+        "numero": 19,
+        "name": "Barrio Coluccio",
+        "zone": "Oeste y Corredor Gutnisky",
+        "limits": "Av. Néstor Kirchner, calle O’Higgins, Av. Alicia Moreau de Justo y calle Sargento Acosta.",
+        "description": "Sector residencial histórico situado sobre el eje de la Av. Néstor Kirchner hacia el oeste.",
+        "color": "#F72585",
+        "zoneColor": "#059669",
+        "centerLat": -26.19239,
+        "centerLon": -58.20948
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.21181,
+              -26.197688
+            ],
+            [
+              -58.20397,
+              -26.195087
+            ],
+            [
+              -58.207158,
+              -26.187098
+            ],
+            [
+              -58.214998,
+              -26.189698
+            ],
+            [
+              -58.21181,
+              -26.197688
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "parque-urbano",
+        "numero": 20,
+        "name": "Barrio Parque Urbano (I y II)",
+        "zone": "Oeste y Corredor Gutnisky",
+        "limits": "Av. Néstor Kirchner, Av. Italia, Barrio San Pedro y Barrio 2 de Abril.",
+        "description": "Complejo habitacional planificado ubicado al norte de la Av. Néstor Kirchner.",
+        "color": "#4CC9F0",
+        "zoneColor": "#059669",
+        "centerLat": -26.18012,
+        "centerLon": -58.19413
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.195887,
+              -26.18336
+            ],
+            [
+              -58.190497,
+              -26.181573
+            ],
+            [
+              -58.192372,
+              -26.176873
+            ],
+            [
+              -58.197762,
+              -26.17866
+            ],
+            [
+              -58.195887,
+              -26.18336
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "san-pedro",
+        "numero": 21,
+        "name": "Barrio San Pedro",
+        "zone": "Oeste y Corredor Gutnisky",
+        "limits": "Av. Sargento Cabral, Av. Néstor Kirchner, calle Trinidad González y Barrio Parque Urbano.",
+        "description": "Tradicional barriada intermedia al oeste de San Francisco, recorrida por la arteria Trinidad González.",
+        "color": "#4361EE",
+        "zoneColor": "#059669",
+        "centerLat": -26.17685,
+        "centerLon": -58.18989
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.190497,
+              -26.181573
+            ],
+            [
+              -58.186087,
+              -26.18011
+            ],
+            [
+              -58.189275,
+              -26.17212
+            ],
+            [
+              -58.193685,
+              -26.173583
+            ],
+            [
+              -58.190497,
+              -26.181573
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "2-de-abril",
+        "numero": 22,
+        "name": "Barrio 2 de Abril",
+        "zone": "Oeste y Corredor Gutnisky",
+        "limits": "Av. Italia, Barrio Parque Urbano, Barrio Evita y calle Juan Manuel de Rosas.",
+        "description": "Complejo habitacional y barriada ubicada al norte de Parque Urbano, contigua al Barrio Evita.",
+        "color": "#3F37C9",
+        "zoneColor": "#059669",
+        "centerLat": -26.17503,
+        "centerLon": -58.19644
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.198253,
+              -26.178823
+            ],
+            [
+              -58.192372,
+              -26.176873
+            ],
+            [
+              -58.194622,
+              -26.171233
+            ],
+            [
+              -58.200502,
+              -26.173183
+            ],
+            [
+              -58.198253,
+              -26.178823
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "evita",
+        "numero": 23,
+        "name": "Barrio Evita",
+        "zone": "Oeste y Corredor Gutnisky",
+        "limits": "Av. Néstor Kirchner, Barrio 2 de Abril, Av. Pueyrredón y Barrio Independencia / Parque Urbano.",
+        "description": "Barrio residencial del sector oeste, colindante con el Barrio 2 de Abril y Parque Urbano.",
+        "color": "#4895EF",
+        "zoneColor": "#059669",
+        "centerLat": -26.17949,
+        "centerLon": -58.20187
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.203238,
+              -26.185797
+            ],
+            [
+              -58.196378,
+              -26.183523
+            ],
+            [
+              -58.200502,
+              -26.173183
+            ],
+            [
+              -58.207362,
+              -26.175458
+            ],
+            [
+              -58.203238,
+              -26.185797
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "emilio-tomas",
+        "numero": 24,
+        "name": "Barrio Emilio Tomás",
+        "zone": "Oeste y Corredor Gutnisky",
+        "limits": "Av. Néstor Kirchner, Barrio Evita, Barrio Coluccio y Av. Laureano Maradona.",
+        "description": "Sector residencial ubicado al norte del Barrio Coluccio y al oeste del Barrio Evita.",
+        "color": "#560BAD",
+        "zoneColor": "#059669",
+        "centerLat": -26.18199,
+        "centerLon": -58.20781
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.208627,
+              -26.187585
+            ],
+            [
+              -58.203238,
+              -26.185797
+            ],
+            [
+              -58.206987,
+              -26.176398
+            ],
+            [
+              -58.212377,
+              -26.178185
+            ],
+            [
+              -58.208627,
+              -26.187585
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "vial",
+        "numero": 25,
+        "name": "Barrio Vial",
+        "zone": "Norte Intermedio y Este",
+        "limits": "Av. Sargento Cabral, Barrio San Francisco, Barrio Villa Lourdes y Av. Italia.",
+        "description": "Tradicional barrio intermedio situado entre San Francisco y Villa Lourdes.",
+        "color": "#52B788",
+        "zoneColor": "#D97706",
+        "centerLat": -26.16895,
+        "centerLon": -58.18693
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.191235,
+              -26.17277
+            ],
+            [
+              -58.180945,
+              -26.169358
+            ],
+            [
+              -58.182632,
+              -26.165128
+            ],
+            [
+              -58.192923,
+              -26.16854
+            ],
+            [
+              -58.191235,
+              -26.17277
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "villa-lourdes",
+        "numero": 26,
+        "name": "Barrio Villa Lourdes",
+        "zone": "Norte Intermedio y Este",
+        "limits": "Av. Sargento Cabral, Av. Venezuela, Riacho Formosa y Barrio Vial.",
+        "description": "Histórico y populoso barrio de la zona norte intermedia, próximo al paso hacia el Circuito Cinco.",
+        "color": "#40916C",
+        "zoneColor": "#D97706",
+        "centerLat": -26.16377,
+        "centerLon": -58.18817
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.192923,
+              -26.16854
+            ],
+            [
+              -58.181162,
+              -26.16464
+            ],
+            [
+              -58.183412,
+              -26.159
+            ],
+            [
+              -58.195172,
+              -26.1629
+            ],
+            [
+              -58.192923,
+              -26.16854
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "la-paz",
+        "numero": 27,
+        "name": "Barrio La Paz",
+        "zone": "Norte Intermedio y Este",
+        "limits": "Av. Venezuela, Barrio Villa Lourdes, Barrio San Agustín y defensas del Riacho Formosa.",
+        "description": "Sector residencial contiguo a Villa Lourdes y San Agustín, junto a la cuenca del Riacho Formosa.",
+        "color": "#2D6A4F",
+        "zoneColor": "#D97706",
+        "centerLat": -26.16467,
+        "centerLon": -58.17643
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.179475,
+              -26.16887
+            ],
+            [
+              -58.171145,
+              -26.166108
+            ],
+            [
+              -58.173395,
+              -26.160468
+            ],
+            [
+              -58.181725,
+              -26.16323
+            ],
+            [
+              -58.179475,
+              -26.16887
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "san-agustin",
+        "numero": 28,
+        "name": "Barrio San Agustín",
+        "zone": "Norte Intermedio y Este",
+        "limits": "Av. Santa Bárbara, calle Díaz Roig, Barrio La Paz y ribera del Riacho Formosa.",
+        "description": "Barrio consolidado del sector noreste, bordeando el curso del Riacho Formosa.",
+        "color": "#74C69D",
+        "zoneColor": "#D97706",
+        "centerLat": -26.15926,
+        "centerLon": -58.17776
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.181725,
+              -26.16323
+            ],
+            [
+              -58.171925,
+              -26.15998
+            ],
+            [
+              -58.1738,
+              -26.15528
+            ],
+            [
+              -58.1836,
+              -26.15853
+            ],
+            [
+              -58.181725,
+              -26.16323
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "urbanizacion-maradona",
+        "numero": 29,
+        "name": "Barrio Urbanización Maradona",
+        "zone": "Circuito Cinco (Zona Norte)",
+        "limits": "Av. Laureano Maradona, Av. Ribereña, Barrio República Argentina y Riacho Formosa.",
+        "description": "Sector residencial del ingreso sur al Circuito Cinco, articulado por la Av. Laureano Maradona.",
+        "color": "#95D5B2",
+        "zoneColor": "#9333EA",
+        "centerLat": -26.14741,
+        "centerLon": -58.16612
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.168973,
+              -26.152083
+            ],
+            [
+              -58.160643,
+              -26.14932
+            ],
+            [
+              -58.163268,
+              -26.14274
+            ],
+            [
+              -58.171598,
+              -26.145502
+            ],
+            [
+              -58.168973,
+              -26.152083
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "republica-argentina",
+        "numero": 30,
+        "name": "Barrio República Argentina",
+        "zone": "Circuito Cinco (Zona Norte)",
+        "limits": "Av. Ana E. Elías de Cánepa, Av. Soldado Formoseño en Malvinas, Av. Dr. Ricardo Balbín y Barrio Eva Perón.",
+        "description": "Uno de los barrios más grandes y activos del Circuito Cinco, con intenso movimiento comercial e institucional.",
+        "color": "#D97706",
+        "zoneColor": "#9333EA",
+        "centerLat": -26.14091,
+        "centerLon": -58.16095
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.161997,
+              -26.148705
+            ],
+            [
+              -58.154647,
+              -26.146268
+            ],
+            [
+              -58.159897,
+              -26.133108
+            ],
+            [
+              -58.167248,
+              -26.135545
+            ],
+            [
+              -58.161997,
+              -26.148705
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "eva-peron",
+        "numero": 31,
+        "name": "Barrio Eva Perón",
+        "zone": "Circuito Cinco (Zona Norte)",
+        "limits": "Av. Soldado Formoseño, Av. Eva Perón, Barrio República Argentina y Barrio Simón Bolívar.",
+        "description": "Núcleo fundacional e histórico del Circuito Cinco, sede del Hospital Distrital 8 y el Centro Cívico Municipal.",
+        "color": "#DC2626",
+        "zoneColor": "#9333EA",
+        "centerLat": -26.14215,
+        "centerLon": -58.15185
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.154272,
+              -26.147208
+            ],
+            [
+              -58.146432,
+              -26.144608
+            ],
+            [
+              -58.149432,
+              -26.137087
+            ],
+            [
+              -58.157272,
+              -26.139688
+            ],
+            [
+              -58.154272,
+              -26.147208
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "el-mirador",
+        "numero": 32,
+        "name": "Barrio El Mirador",
+        "zone": "Circuito Cinco (Zona Norte)",
+        "limits": "Av. Laureano Maradona, Barrio República Argentina, Barrio El Porvenir y Barrio Urbanización Maradona.",
+        "description": "Barrio residencial ubicado en el corazón del Circuito Cinco, al oeste de República Argentina.",
+        "color": "#2563EB",
+        "zoneColor": "#9333EA",
+        "centerLat": -26.14036,
+        "centerLon": -58.16893
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.170617,
+              -26.145177
+            ],
+            [
+              -58.164248,
+              -26.143065
+            ],
+            [
+              -58.167248,
+              -26.135545
+            ],
+            [
+              -58.173617,
+              -26.137657
+            ],
+            [
+              -58.170617,
+              -26.145177
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "el-porvenir",
+        "numero": 33,
+        "name": "Barrio El Porvenir",
+        "zone": "Circuito Cinco (Zona Norte)",
+        "limits": "Av. Juan Domingo Perón, Barrio El Mirador, Barrio 1º de Mayo y Barrio Juan Domingo Perón.",
+        "description": "Sector residencial consolidado del Circuito Cinco entre 1º de Mayo y El Mirador.",
+        "color": "#7C3AED",
+        "zoneColor": "#9333EA",
+        "centerLat": -26.14162,
+        "centerLon": -58.17592
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.177853,
+              -26.146513
+            ],
+            [
+              -58.170992,
+              -26.144237
+            ],
+            [
+              -58.173992,
+              -26.136717
+            ],
+            [
+              -58.180853,
+              -26.138993
+            ],
+            [
+              -58.177853,
+              -26.146513
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1-de-mayo",
+        "numero": 34,
+        "name": "Barrio 1º de Mayo",
+        "zone": "Circuito Cinco (Zona Norte)",
+        "limits": "Av. Juan Domingo Perón, calle Cruz Roja Argentina, Barrio Luján y Barrio El Porvenir.",
+        "description": "Barrio ubicado sobre el acceso occidental al Circuito Cinco, atravesado por la calle Cruz Roja Argentina.",
+        "color": "#DB2777",
+        "zoneColor": "#9333EA",
+        "centerLat": -26.14311,
+        "centerLon": -58.18365
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.186068,
+              -26.148173
+            ],
+            [
+              -58.178227,
+              -26.145573
+            ],
+            [
+              -58.181227,
+              -26.138053
+            ],
+            [
+              -58.189068,
+              -26.140653
+            ],
+            [
+              -58.186068,
+              -26.148173
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lujan",
+        "numero": 35,
+        "name": "Barrio Nuestra Señora de Luján",
+        "zone": "Circuito Cinco (Zona Norte)",
+        "limits": "Av. Juan Domingo Perón, Av. Antenor Gauna, Barrio 1º de Mayo y Barrio Juan Domingo Perón.",
+        "description": "Tradicional barriada del sector noroeste del Circuito Cinco.",
+        "color": "#059669",
+        "zoneColor": "#9333EA",
+        "centerLat": -26.136,
+        "centerLon": -58.18787
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.190537,
+              -26.14114
+            ],
+            [
+              -58.182207,
+              -26.138378
+            ],
+            [
+              -58.185207,
+              -26.130858
+            ],
+            [
+              -58.193537,
+              -26.13362
+            ],
+            [
+              -58.190537,
+              -26.14114
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "juan-domingo-peron",
+        "numero": 36,
+        "name": "Barrio Juan Domingo Perón",
+        "zone": "Circuito Cinco (Zona Norte)",
+        "limits": "Av. Juan Domingo Perón, Av. Antenor Gauna, Barrio 7 de Mayo y Barrio Luján.",
+        "description": "Gran complejo habitacional (incluyendo las 742 Viviendas) en el sector norte del Circuito Cinco.",
+        "color": "#0891B2",
+        "zoneColor": "#9333EA",
+        "centerLat": -26.1333,
+        "centerLon": -58.17813
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.181832,
+              -26.139318
+            ],
+            [
+              -58.171053,
+              -26.135742
+            ],
+            [
+              -58.174428,
+              -26.127282
+            ],
+            [
+              -58.185207,
+              -26.130858
+            ],
+            [
+              -58.181832,
+              -26.139318
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "7-de-mayo",
+        "numero": 37,
+        "name": "Barrio 7 de Mayo",
+        "zone": "Circuito Cinco (Zona Norte)",
+        "limits": "Av. Antenor Gauna, Barrio República Argentina, Barrio Juan Domingo Perón y Barrio Antenor Gauna.",
+        "description": "Populoso barrio del norte del Circuito Cinco, vinculado por la Av. Antenor Gauna.",
+        "color": "#4F46E5",
+        "zoneColor": "#9333EA",
+        "centerLat": -26.13058,
+        "centerLon": -58.16673
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.170678,
+              -26.136682
+            ],
+            [
+              -58.159408,
+              -26.132945
+            ],
+            [
+              -58.162782,
+              -26.124485
+            ],
+            [
+              -58.174053,
+              -26.128222
+            ],
+            [
+              -58.170678,
+              -26.136682
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "antenor-gauna",
+        "numero": 38,
+        "name": "Barrio Antenor Gauna",
+        "zone": "Circuito Cinco (Zona Norte)",
+        "limits": "Av. Antenor Gauna, Barrio Simón Bolívar, Barrio 7 de Mayo y Barrio Monte Agudo.",
+        "description": "Extenso barrio residencial en la franja norte del Circuito Cinco.",
+        "color": "#EA580C",
+        "zoneColor": "#9333EA",
+        "centerLat": -26.12859,
+        "centerLon": -58.15671
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.159408,
+              -26.132945
+            ],
+            [
+              -58.151567,
+              -26.130345
+            ],
+            [
+              -58.154005,
+              -26.124235
+            ],
+            [
+              -58.161845,
+              -26.126835
+            ],
+            [
+              -58.159408,
+              -26.132945
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "monte-agudo",
+        "numero": 39,
+        "name": "Barrio Monte Agudo",
+        "zone": "Circuito Cinco (Zona Norte)",
+        "limits": "Extremo noreste del Circuito Cinco, lindero a Barrio Antenor Gauna y Barrio 8 de Octubre.",
+        "description": "Sector de expansión norte del Circuito Cinco.",
+        "color": "#65A30D",
+        "zoneColor": "#9333EA",
+        "centerLat": -26.12124,
+        "centerLon": -58.15381
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.156945,
+              -26.12521
+            ],
+            [
+              -58.148615,
+              -26.122447
+            ],
+            [
+              -58.150678,
+              -26.117278
+            ],
+            [
+              -58.159008,
+              -26.12004
+            ],
+            [
+              -58.156945,
+              -26.12521
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "simon-bolivar",
+        "numero": 40,
+        "name": "Barrio Simón Bolívar",
+        "zone": "Circuito Cinco (Zona Norte)",
+        "limits": "Av. Simón Bolívar, Barrio Eva Perón, Barrio Antenor Gauna y Barrio 8 de Octubre.",
+        "description": "Uno de los barrios principales del sector este del Circuito Cinco.",
+        "color": "#0D9488",
+        "zoneColor": "#9333EA",
+        "centerLat": -26.13534,
+        "centerLon": -58.1554
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.157272,
+              -26.139688
+            ],
+            [
+              -58.150903,
+              -26.137575
+            ],
+            [
+              -58.153528,
+              -26.130995
+            ],
+            [
+              -58.159897,
+              -26.133108
+            ],
+            [
+              -58.157272,
+              -26.139688
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "8-de-octubre",
+        "numero": 41,
+        "name": "Barrio 8 de Octubre",
+        "zone": "Circuito Cinco (Zona Norte)",
+        "limits": "Barrio Simón Bolívar, Barrio 20 de Julio, Av. Antenor Gauna este y Barrio Eva Perón.",
+        "description": "Complejo habitacional y barriada ubicada al este de Simón Bolívar en el Circuito Cinco.",
+        "color": "#9333EA",
+        "zoneColor": "#9333EA",
+        "centerLat": -26.13363,
+        "centerLon": -58.15026
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.150903,
+              -26.137575
+            ],
+            [
+              -58.146983,
+              -26.136275
+            ],
+            [
+              -58.149608,
+              -26.129695
+            ],
+            [
+              -58.153528,
+              -26.130995
+            ],
+            [
+              -58.150903,
+              -26.137575
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20-de-julio",
+        "numero": 42,
+        "name": "Barrio 20 de Julio",
+        "zone": "Circuito Cinco (Zona Norte)",
+        "limits": "Barrio 8 de Octubre, Barrio 8 de Marzo y corredor este del Circuito Cinco.",
+        "description": "Barrio residencial situado entre los barrios 8 de Octubre y 8 de Marzo.",
+        "color": "#E11D48",
+        "zoneColor": "#9333EA",
+        "centerLat": -26.13234,
+        "centerLon": -58.14634
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.146983,
+              -26.136275
+            ],
+            [
+              -58.143062,
+              -26.134975
+            ],
+            [
+              -58.145688,
+              -26.128395
+            ],
+            [
+              -58.149608,
+              -26.129695
+            ],
+            [
+              -58.146983,
+              -26.136275
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "8-de-marzo",
+        "numero": 43,
+        "name": "Barrio 8 de Marzo",
+        "zone": "Circuito Cinco (Zona Norte)",
+        "limits": "Extremo este del Circuito Cinco, contiguo al Barrio 20 de Julio y ribera norte.",
+        "description": "Sector residencial del extremo oriental del Circuito Cinco.",
+        "color": "#0284C7",
+        "zoneColor": "#9333EA",
+        "centerLat": -26.13118,
+        "centerLon": -58.14125
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.142688,
+              -26.135915
+            ],
+            [
+              -58.136808,
+              -26.133965
+            ],
+            [
+              -58.139808,
+              -26.126445
+            ],
+            [
+              -58.145688,
+              -26.128395
+            ],
+            [
+              -58.142688,
+              -26.135915
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "las-orquideas",
+        "numero": 44,
+        "name": "Barrio Las Orquídeas",
+        "zone": "Circuito Cinco (Zona Norte)",
+        "limits": "Sector sur-este del Circuito Cinco, contiguo al Barrio Eva Perón y Los Inmigrantes.",
+        "description": "Barrio residencial con trama urbanística renovada al sureste del Circuito Cinco.",
+        "color": "#CA8A04",
+        "zoneColor": "#9333EA",
+        "centerLat": -26.14002,
+        "centerLon": -58.14382
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.146432,
+              -26.144608
+            ],
+            [
+              -58.138593,
+              -26.142008
+            ],
+            [
+              -58.141218,
+              -26.135427
+            ],
+            [
+              -58.149057,
+              -26.138027
+            ],
+            [
+              -58.146432,
+              -26.144608
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "namqom",
+        "numero": 45,
+        "name": "Barrio Namqom",
+        "zone": "Circuito Cinco (Zona Norte)",
+        "limits": "Ruta Nacional Nº 11 (Acceso Norte, Km 1185) y sector periurbano norte.",
+        "description": "Histórica comunidad originaria Qom ubicada sobre el corredor de la Ruta Nacional Nº 11 en el acceso norte de la ciudad.",
+        "color": "#16A34A",
+        "zoneColor": "#9333EA",
+        "centerLat": -26.11951,
+        "centerLon": -58.22802
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.231533,
+              -26.125998
+            ],
+            [
+              -58.220753,
+              -26.122423
+            ],
+            [
+              -58.224502,
+              -26.113023
+            ],
+            [
+              -58.235282,
+              -26.116598
+            ],
+            [
+              -58.231533,
+              -26.125998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "liborsi",
+        "numero": 46,
+        "name": "Barrio Liborsi",
+        "zone": "Suroeste y Expansión Sur",
+        "limits": "Av. Dr. Luis Gutnisky, Av. Arturo Illia, Av. Gendarmería Nacional (RN 11) y Barrio Divino Niño Jesús.",
+        "description": "Tradicional barrio del sector oeste situado entre Av. Arturo Illia y la Ruta Nacional 11.",
+        "color": "#C026D3",
+        "zoneColor": "#E11D48",
+        "centerLat": -26.19516,
+        "centerLon": -58.21864
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.2221,
+              -26.2011
+            ],
+            [
+              -58.21181,
+              -26.197688
+            ],
+            [
+              -58.215185,
+              -26.189228
+            ],
+            [
+              -58.225475,
+              -26.19264
+            ],
+            [
+              -58.2221,
+              -26.2011
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "divino-nino-jesus",
+        "numero": 47,
+        "name": "Barrio Divino Niño Jesús",
+        "zone": "Suroeste y Expansión Sur",
+        "limits": "Av. Néstor Kirchner, Av. Gendarmería Nacional (RN 11), Barrio Liborsi y Barrio PROCREAR.",
+        "description": "Barrio residencial ubicado al norte del Barrio Liborsi y al este de la Ruta Nacional 11.",
+        "color": "#D946EF",
+        "zoneColor": "#E11D48",
+        "centerLat": -26.18726,
+        "centerLon": -58.22207
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.225475,
+              -26.19264
+            ],
+            [
+              -58.215675,
+              -26.18939
+            ],
+            [
+              -58.218675,
+              -26.18187
+            ],
+            [
+              -58.228475,
+              -26.18512
+            ],
+            [
+              -58.225475,
+              -26.19264
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "san-andres",
+        "numero": 48,
+        "name": "Barrio San Andrés (I y II)",
+        "zone": "Suroeste y Expansión Sur",
+        "limits": "Av. Arturo Illia, Barrio Coluccio, Barrio Divino Niño Jesús y Barrio Lisbel Rivira.",
+        "description": "Sector residencial en expansión ubicado al norte del Barrio Coluccio.",
+        "color": "#EC4899",
+        "zoneColor": "#E11D48",
+        "centerLat": -26.18332,
+        "centerLon": -58.21421
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.215488,
+              -26.18986
+            ],
+            [
+              -58.208627,
+              -26.187585
+            ],
+            [
+              -58.21294,
+              -26.176775
+            ],
+            [
+              -58.2198,
+              -26.17905
+            ],
+            [
+              -58.215488,
+              -26.18986
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lisbel-rivira",
+        "numero": 49,
+        "name": "Barrio Lisbel Rivira",
+        "zone": "Suroeste y Expansión Sur",
+        "limits": "Prolongación Av. Arturo Illia, Barrio San Andrés y sector noroeste de expansión.",
+        "description": "Barrio residencial situado en la franja noroeste de expansión urbana.",
+        "color": "#F97316",
+        "zoneColor": "#E11D48",
+        "centerLat": -26.173,
+        "centerLon": -58.22
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.22274,
+              -26.180025
+            ],
+            [
+              -58.21294,
+              -26.176775
+            ],
+            [
+              -58.217252,
+              -26.165965
+            ],
+            [
+              -58.227052,
+              -26.169215
+            ],
+            [
+              -58.22274,
+              -26.180025
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "procrear-lote-110",
+        "numero": 50,
+        "name": "Barrio PROCREAR / 28 de Junio (Ex Lote 110)",
+        "zone": "Suroeste y Expansión Sur",
+        "limits": "Av. Gendarmería Nacional (RN 11), Barrio Divino Niño Jesús y Barrio Salvador Gurrieri.",
+        "description": "Desarrollo urbanístico y habitacional conocido históricamente como Lote 110 / PROCREAR.",
+        "color": "#84CC16",
+        "zoneColor": "#E11D48",
+        "centerLat": -26.1795,
+        "centerLon": -58.22517
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.228475,
+              -26.18512
+            ],
+            [
+              -58.218675,
+              -26.18187
+            ],
+            [
+              -58.221863,
+              -26.17388
+            ],
+            [
+              -58.231662,
+              -26.17713
+            ],
+            [
+              -58.228475,
+              -26.18512
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "salvador-gurrieri-lote-111",
+        "numero": 51,
+        "name": "Barrio Fray Salvador Gurrieri (Ex Lote 111)",
+        "zone": "Suroeste y Expansión Sur",
+        "limits": "Av. Gendarmería Nacional (RN 11) oeste, calle Tomás Parkinson y Barrio 12 de Octubre.",
+        "description": "Gran urbanización del sector oeste rebautizada por ordenanza municipal como Barrio Fray Salvador Gurrieri (ex Lote 111).",
+        "color": "#10B981",
+        "zoneColor": "#E11D48",
+        "centerLat": -26.18135,
+        "centerLon": -58.23636
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.239933,
+              -26.188388
+            ],
+            [
+              -58.228662,
+              -26.18465
+            ],
+            [
+              -58.232788,
+              -26.17431
+            ],
+            [
+              -58.244058,
+              -26.178048
+            ],
+            [
+              -58.239933,
+              -26.188388
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "12-de-octubre",
+        "numero": 52,
+        "name": "Barrio 12 de Octubre",
+        "zone": "Suroeste y Expansión Sur",
+        "limits": "Av. Gendarmería Nacional (RN 11), Barrio Salvador Gurrieri (Lote 111) y Barrio Sagrado Corazón.",
+        "description": "Barrio residencial ubicado al oeste de la Ruta Nacional Nº 11, contiguo al Lote 111.",
+        "color": "#06B6D4",
+        "zoneColor": "#E11D48",
+        "centerLat": -26.19035,
+        "centerLon": -58.23221
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.235765,
+              -26.196053
+            ],
+            [
+              -58.225475,
+              -26.19264
+            ],
+            [
+              -58.228662,
+              -26.18465
+            ],
+            [
+              -58.238952,
+              -26.188063
+            ],
+            [
+              -58.235765,
+              -26.196053
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sagrado-corazon",
+        "numero": 53,
+        "name": "Barrio Sagrado Corazón de María",
+        "zone": "Suroeste y Expansión Sur",
+        "limits": "Ruta Nacional Nº 11 (Rotonda de la Virgen), Barrio 12 de Octubre y Barrio La Nueva Formosa.",
+        "description": "Sector residencial situado frente al acceso suroeste sobre la Ruta Nacional Nº 11.",
+        "color": "#6366F1",
+        "zoneColor": "#E11D48",
+        "centerLat": -26.19996,
+        "centerLon": -58.2331
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.23778,
+              -26.2063
+            ],
+            [
+              -58.22504,
+              -26.202075
+            ],
+            [
+              -58.228415,
+              -26.193615
+            ],
+            [
+              -58.241155,
+              -26.19784
+            ],
+            [
+              -58.23778,
+              -26.2063
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nueva-formosa",
+        "numero": 54,
+        "name": "Barrio La Nueva Formosa",
+        "zone": "Suroeste y Expansión Sur",
+        "limits": "Ruta Nacional Nº 11, Av. Los Pumas, Barrio Sagrado Corazón y acceso al Aeropuerto El Pucú.",
+        "description": "Mega complejo habitacional planificado en el sector suroeste de la ciudad, con miles de viviendas, escuelas y centro de salud.",
+        "color": "#8B5CF6",
+        "zoneColor": "#E11D48",
+        "centerLat": -26.20732,
+        "centerLon": -58.24486
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.248947,
+              -26.215858
+            ],
+            [
+              -58.235717,
+              -26.21147
+            ],
+            [
+              -58.24078,
+              -26.19878
+            ],
+            [
+              -58.25401,
+              -26.203168
+            ],
+            [
+              -58.248947,
+              -26.215858
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "san-jorge",
+        "numero": 55,
+        "name": "Barrio San Jorge / El Pucú",
+        "zone": "Suroeste y Expansión Sur",
+        "limits": "Av. Gendarmería Nacional (RN 11), cuenca del Riacho El Pucú, Barrio San Juan Bautista y zona Aeropuerto.",
+        "description": "Sector residencial del sur de la ciudad, próximo al Riacho El Pucú y al Aeropuerto Internacional.",
+        "color": "#F43F5E",
+        "zoneColor": "#E11D48",
+        "centerLat": -26.21269,
+        "centerLon": -58.20971
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.215205,
+              -26.221165
+            ],
+            [
+              -58.199525,
+              -26.215965
+            ],
+            [
+              -58.204212,
+              -26.204215
+            ],
+            [
+              -58.219892,
+              -26.209415
+            ],
+            [
+              -58.215205,
+              -26.221165
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "villa-del-carmen",
+        "numero": 56,
+        "name": "Barrio Villa del Carmen",
+        "zone": "Suroeste y Expansión Sur",
+        "limits": "Ruta Nacional Nº 11 (Km 1164), Riacho San Hilario y sector periurbano sur.",
+        "description": "Amplia jurisdicción barrial ubicada al sur de la ciudad sobre la Ruta Nacional Nº 11.",
+        "color": "#14B8A6",
+        "zoneColor": "#E11D48",
+        "centerLat": -26.25759,
+        "centerLon": -58.25737
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.2677293,
+              -26.263843
+            ],
+            [
+              -58.265605,
+              -26.2645896
+            ],
+            [
+              -58.2649184,
+              -26.2638968
+            ],
+            [
+              -58.2637041,
+              -26.2646029
+            ],
+            [
+              -58.2608414,
+              -26.2662676
+            ],
+            [
+              -58.2605767,
+              -26.2664329
+            ],
+            [
+              -58.2560563,
+              -26.2692558
+            ],
+            [
+              -58.2532776,
+              -26.2688902
+            ],
+            [
+              -58.2532658,
+              -26.2688616
+            ],
+            [
+              -58.2529325,
+              -26.2680544
+            ],
+            [
+              -58.2527871,
+              -26.2677023
+            ],
+            [
+              -58.2526172,
+              -26.2672909
+            ],
+            [
+              -58.252833,
+              -26.2666681
+            ],
+            [
+              -58.2522583,
+              -26.2664215
+            ],
+            [
+              -58.2490718,
+              -26.2643875
+            ],
+            [
+              -58.2504236,
+              -26.261328
+            ],
+            [
+              -58.242349,
+              -26.2589563
+            ],
+            [
+              -58.2426907,
+              -26.257958
+            ],
+            [
+              -58.2437504,
+              -26.2548622
+            ],
+            [
+              -58.2476771,
+              -26.2450473
+            ],
+            [
+              -58.2499945,
+              -26.238773
+            ],
+            [
+              -58.2534492,
+              -26.2398123
+            ],
+            [
+              -58.2558457,
+              -26.2406248
+            ],
+            [
+              -58.2633841,
+              -26.2431804
+            ],
+            [
+              -58.2646783,
+              -26.2436837
+            ],
+            [
+              -58.2664526,
+              -26.2443737
+            ],
+            [
+              -58.2662546,
+              -26.2455357
+            ],
+            [
+              -58.2651865,
+              -26.2518023
+            ],
+            [
+              -58.2635558,
+              -26.2515137
+            ],
+            [
+              -58.2626331,
+              -26.2521679
+            ],
+            [
+              -58.26244,
+              -26.2537268
+            ],
+            [
+              -58.2627297,
+              -26.2573966
+            ],
+            [
+              -58.2624829,
+              -26.2582626
+            ],
+            [
+              -58.2660003,
+              -26.2620039
+            ],
+            [
+              -58.2677293,
+              -26.263843
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
