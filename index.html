@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mapa Interactivo de Barrios de Formosa Capital - Argentina</title>
+  <meta name="description" content="Mapa público e interactivo con la delimitación por colores de los 56 barrios de la Ciudad de Formosa Capital, Argentina. Construido con Leaflet y OpenStreetMap." />
+
+  <!-- Open Graph para compartir por WhatsApp, redes sociales y enlaces -->
+  <meta name="referrer" content="origin-when-cross-origin" />
+  <meta property="og:title" content="Mapa Interactivo de Barrios de Formosa Capital" />
+  <meta property="og:description" content="Explorá, buscá y compartí cada barrio de Formosa Capital delimitado por colores y zonas sobre OpenStreetMap." />
+  <meta property="og:type" content="website" />
+
+  <!-- Fuente Inter y Leaflet CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-layout">
+    <!-- Panel Lateral -->
+    <aside class="sidebar" id="sidebar" aria-label="Panel de barrios de Formosa Capital">
+      <div class="sidebar-header">
+        <div class="brand-row">
+          <span class="brand-badge">🗺️ Formosa Capital • Argentina</span>
+        </div>
+        <h1 class="sidebar-title">Mapa de Barrios de Formosa</h1>
+        <p class="sidebar-subtitle">
+          Delimitación interactiva por colores sobre OpenStreetMap y el damero urbano de la ciudad.
+        </p>
+      </div>
+
+      <div class="controls-panel">
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input
+            type="search"
+            id="searchInput"
+            placeholder="Buscar barrio, avenida o calle límite..."
+            aria-label="Buscar barrio o avenida"
+          />
+          <button type="button" class="clear-search-btn" id="clearSearchBtn" title="Limpiar búsqueda">✕</button>
+        </div>
+
+        <div class="filter-row">
+          <select id="zoneSelect" class="select-control" aria-label="Filtrar por zona">
+            <option value="all">Todas las zonas (56)</option>
+            <option value="Centro y Casco Histórico">Centro y Casco Histórico</option>
+            <option value="Oeste y Corredor Gutnisky">Oeste y Corredor Gutnisky</option>
+            <option value="Norte Intermedio y Este">Norte Intermedio y Este</option>
+            <option value="Circuito Cinco (Zona Norte)">Circuito Cinco (Zona Norte)</option>
+            <option value="Suroeste y Expansión Sur">Suroeste y Expansión Sur</option>
+          </select>
+
+          <select id="colorModeSelect" class="select-control" aria-label="Modo de colores">
+            <option value="barrio">🎨 Color por Barrio</option>
+            <option value="zona">🧭 Color por Zona</option>
+          </select>
+        </div>
+
+        <div class="toggles-row">
+          <label class="toggle-label">
+            <input type="checkbox" id="toggleLabels" checked />
+            Mostrar nombres en el mapa
+          </label>
+
+          <select id="baseMapSelect" class="select-control" style="width: auto; padding: 4px 8px;" aria-label="Tipo de mapa base">
+            <option value="osm">OpenStreetMap Oficial</option>
+            <option value="argenmap">IGN Argenmap (Oficial Argentina)</option>
+            <option value="esriStreet">Mapa Callejero Esri</option>
+            <option value="satellite">Vista Satelital</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="stats-bar">
+        <span id="barriosCount">Mostrando 56 de 56 barrios</span>
+        <button type="button" class="btn-link" id="resetViewBtn">Ver toda la ciudad</button>
+      </div>
+
+      <div class="barrios-list" id="barriosList" role="list"></div>
+
+      <div class="sidebar-footer">
+        <button type="button" class="btn btn-primary" id="openShareModalBtn">
+          🔗 Compartir Enlace
+        </button>
+        <a href="barrios-formosa.geojson" download="barrios-formosa.geojson" class="btn">
+          ⬇️ Descargar GeoJSON
+        </a>
+      </div>
+    </aside>
+
+    <!-- Contenedor del Mapa -->
+    <main class="map-wrapper">
+      <button type="button" class="mobile-menu-btn" id="mobileMenuBtn">
+        ☰ Barrios (56)
+      </button>
+
+      <div class="map-floating-bar">
+        <button type="button" class="floating-pill" id="fitCityBtn" title="Centrar mapa en Formosa Capital">
+          🎯 Centrar Ciudad
+        </button>
+      </div>
+
+      <div id="map" role="region" aria-label="Mapa interactivo de los barrios de Formosa Capital"></div>
+
+      <!-- Leyenda por Zonas -->
+      <div class="zone-legend" aria-label="Leyenda de zonas de la ciudad">
+        <h4>Sectores Urbanos de Formosa</h4>
+        <div class="legend-item">
+          <span class="legend-dot" style="background:#2563EB"></span>
+          <span>Centro y Casco Histórico</span>
+        </div>
+        <div class="legend-item">
+          <span class="legend-dot" style="background:#059669"></span>
+          <span>Oeste y Corredor Gutnisky</span>
+        </div>
+        <div class="legend-item">
+          <span class="legend-dot" style="background:#D97706"></span>
+          <span>Norte Intermedio y Este</span>
+        </div>
+        <div class="legend-item">
+          <span class="legend-dot" style="background:#9333EA"></span>
+          <span>Circuito Cinco (Zona Norte)</span>
+        </div>
+        <div class="legend-item">
+          <span class="legend-dot" style="background:#E11D48"></span>
+          <span>Suroeste y Expansión Sur</span>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Modal nativo para compartir enlace -->
+  <dialog class="share-dialog" id="shareDialog" closedby="any">
+    <div class="dialog-header">
+      <h3>Compartir Mapa de Formosa Capital</h3>
+      <button type="button" class="dialog-close" id="closeDialogBtn" aria-label="Cerrar">✕</button>
+    </div>
+    <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.45;">
+      Copiá este enlace público para compartir el mapa completo (o el barrio que tengas seleccionado actualmente) por WhatsApp, redes sociales o correo:
+    </p>
+    <div class="share-url-row">
+      <input type="text" id="shareUrlInput" readonly aria-label="Enlace para compartir" />
+      <button type="button" class="btn btn-primary" id="copyShareUrlBtn">Copiar</button>
+    </div>
+  </dialog>
+
+  <!-- Toast de confirmación -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- Scripts: Leaflet + Datos GeoJSON + Lógica -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="barrios-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
