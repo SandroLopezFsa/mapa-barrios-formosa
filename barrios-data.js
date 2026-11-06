@@ -5,7 +5,7 @@ window.BARRIOS_FORMOSA_GEOJSON = {
     "city": "Formosa Capital",
     "province": "Formosa",
     "country": "Argentina",
-    "totalBarrios": 57,
+    "totalBarrios": 58,
     "sources": "OpenStreetMap (ODbL), Nominatim, Código Urbanístico Municipal de Formosa e IDEF"
   },
   "features": [
@@ -2522,6 +2522,48 @@ window.BARRIOS_FORMOSA_GEOJSON = {
             [
               -58.2677293,
               -26.263843
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "28-de-junio-ex-lote-110-278",
+        "numero": 58,
+        "name": "28 de Junio (Ex Lote 110)",
+        "zone": "Suroeste y Expansión Sur",
+        "limits": "Calles a definir en el panel editor",
+        "description": "Gran urbanización del sector oeste rebautizada por ordenanza municipal como Barrio 28 de Junio (ex Lote 110).",
+        "color": "#10b981",
+        "zoneColor": "#E11D48",
+        "centerLat": -26.17211,
+        "centerLon": -58.23903
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.245521,
+              -26.169343
+            ],
+            [
+              -58.236036,
+              -26.166262
+            ],
+            [
+              -58.232453,
+              -26.17487
+            ],
+            [
+              -58.242109,
+              -26.177971
+            ],
+            [
+              -58.245521,
+              -26.169343
             ]
           ]
         ]
