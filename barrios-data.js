@@ -5,7 +5,7 @@ window.BARRIOS_FORMOSA_GEOJSON = {
     "city": "Formosa Capital",
     "province": "Formosa",
     "country": "Argentina",
-    "totalBarrios": 62,
+    "totalBarrios": 64,
     "sources": "OpenStreetMap (ODbL), Nominatim, Código Urbanístico Municipal de Formosa e IDEF"
   },
   "features": [
@@ -1266,32 +1266,32 @@ window.BARRIOS_FORMOSA_GEOJSON = {
         "description": "Sector residencial del ingreso sur al Circuito Cinco, articulado por la Av. Laureano Maradona.",
         "color": "#D97706",
         "zoneColor": "#9333EA",
-        "centerLat": -26.14741,
-        "centerLon": -58.16612
+        "centerLat": -26.1474,
+        "centerLon": -58.16259
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.168973,
-              -26.152083
+              -58.165827,
+              -26.153281
             ],
             [
-              -58.160643,
-              -26.14932
+              -58.155913,
+              -26.150315
             ],
             [
-              -58.163268,
-              -26.14274
+              -58.159475,
+              -26.141416
             ],
             [
-              -58.171598,
-              -26.145502
+              -58.169153,
+              -26.144575
             ],
             [
-              -58.168973,
-              -26.152083
+              -58.165827,
+              -26.153281
             ]
           ]
         ]
@@ -1308,32 +1308,32 @@ window.BARRIOS_FORMOSA_GEOJSON = {
         "description": "Uno de los barrios más grandes y activos del Circuito Cinco, con intenso movimiento comercial e institucional.",
         "color": "#DC2626",
         "zoneColor": "#9333EA",
-        "centerLat": -26.14091,
-        "centerLon": -58.16095
+        "centerLat": -26.1378,
+        "centerLon": -58.16378
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.161997,
-              -26.148705
+              -58.165312,
+              -26.14338
             ],
             [
-              -58.154647,
-              -26.146268
+              -58.158746,
+              -26.141184
             ],
             [
-              -58.159897,
-              -26.133108
+              -58.1622,
+              -26.132227
             ],
             [
-              -58.167248,
-              -26.135545
+              -58.168852,
+              -26.134423
             ],
             [
-              -58.161997,
-              -26.148705
+              -58.165312,
+              -26.14338
             ]
           ]
         ]
@@ -1350,32 +1350,32 @@ window.BARRIOS_FORMOSA_GEOJSON = {
         "description": "Núcleo fundacional e histórico del Circuito Cinco, sede del Hospital Distrital 8 y el Centro Cívico Municipal.",
         "color": "#2563EB",
         "zoneColor": "#9333EA",
-        "centerLat": -26.14215,
-        "centerLon": -58.15185
+        "centerLat": -26.14408,
+        "centerLon": -58.15268
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.154272,
-              -26.147208
+              -58.155892,
+              -26.150045
             ],
             [
-              -58.146432,
-              -26.144608
+              -58.146064,
+              -26.146867
             ],
             [
-              -58.149432,
-              -26.137087
+              -58.149304,
+              -26.138064
             ],
             [
-              -58.157272,
-              -26.139688
+              -58.159475,
+              -26.141358
             ],
             [
-              -58.154272,
-              -26.147208
+              -58.155892,
+              -26.150045
             ]
           ]
         ]
@@ -1392,32 +1392,32 @@ window.BARRIOS_FORMOSA_GEOJSON = {
         "description": "Barrio residencial ubicado en el corazón del Circuito Cinco, al oeste de República Argentina.",
         "color": "#7C3AED",
         "zoneColor": "#9333EA",
-        "centerLat": -26.14036,
-        "centerLon": -58.16893
+        "centerLat": -26.13947,
+        "centerLon": -58.16897
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.170617,
-              -26.145177
+              -58.169003,
+              -26.144594
             ],
             [
-              -58.164248,
-              -26.143065
+              -58.165355,
+              -26.14338
             ],
             [
-              -58.167248,
-              -26.135545
+              -58.168917,
+              -26.134423
             ],
             [
-              -58.173617,
-              -26.137657
+              -58.172607,
+              -26.135482
             ],
             [
-              -58.170617,
-              -26.145177
+              -58.169003,
+              -26.144594
             ]
           ]
         ]
@@ -1434,32 +1434,32 @@ window.BARRIOS_FORMOSA_GEOJSON = {
         "description": "Sector residencial consolidado del Circuito Cinco entre 1º de Mayo y El Mirador.",
         "color": "#DB2777",
         "zoneColor": "#9333EA",
-        "centerLat": -26.14162,
-        "centerLon": -58.17592
+        "centerLat": -26.14215,
+        "centerLon": -58.17553
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.177853,
-              -26.146513
+              -58.178444,
+              -26.149024
             ],
             [
-              -58.170992,
-              -26.144237
+              -58.168616,
+              -26.145788
             ],
             [
-              -58.173992,
-              -26.136717
+              -58.172629,
+              -26.135482
             ],
             [
-              -58.180853,
-              -26.138993
+              -58.182414,
+              -26.138295
             ],
             [
-              -58.177853,
-              -26.146513
+              -58.178444,
+              -26.149024
             ]
           ]
         ]
@@ -1477,31 +1477,35 @@ window.BARRIOS_FORMOSA_GEOJSON = {
         "color": "#059669",
         "zoneColor": "#9333EA",
         "centerLat": -26.14311,
-        "centerLon": -58.18365
+        "centerLon": -58.18679
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.186068,
-              -26.148173
+              -58.188615,
+              -26.1486
             ],
             [
-              -58.178227,
-              -26.145573
+              -58.179581,
+              -26.145904
             ],
             [
-              -58.181227,
-              -26.138053
+              -58.182392,
+              -26.138276
             ],
             [
-              -58.189068,
-              -26.140653
+              -58.190932,
+              -26.140895
             ],
             [
-              -58.186068,
-              -26.148173
+              -58.192413,
+              -26.141878
+            ],
+            [
+              -58.188615,
+              -26.1486
             ]
           ]
         ]
@@ -1518,32 +1522,36 @@ window.BARRIOS_FORMOSA_GEOJSON = {
         "description": "Tradicional barriada del sector noroeste del Circuito Cinco.",
         "color": "#0891B2",
         "zoneColor": "#9333EA",
-        "centerLat": -26.136,
-        "centerLon": -58.18787
+        "centerLat": -26.13672,
+        "centerLon": -58.18916
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.190537,
-              -26.14114
+              -58.191833,
+              -26.1413
             ],
             [
-              -58.182207,
-              -26.138378
+              -58.190675,
+              -26.140684
             ],
             [
-              -58.185207,
-              -26.130858
+              -58.182435,
+              -26.138237
             ],
             [
-              -58.193537,
-              -26.13362
+              -58.185761,
+              -26.130069
             ],
             [
-              -58.190537,
-              -26.14114
+              -58.195117,
+              -26.133286
+            ],
+            [
+              -58.191833,
+              -26.1413
             ]
           ]
         ]
@@ -1602,32 +1610,32 @@ window.BARRIOS_FORMOSA_GEOJSON = {
         "description": "Populoso barrio del norte del Circuito Cinco, vinculado por la Av. Antenor Gauna.",
         "color": "#EA580C",
         "zoneColor": "#9333EA",
-        "centerLat": -26.13058,
-        "centerLon": -58.16673
+        "centerLat": -26.1306,
+        "centerLon": -58.16546
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.170678,
-              -26.136682
+              -58.168724,
+              -26.134018
             ],
             [
-              -58.159408,
-              -26.132945
+              -58.160655,
+              -26.131514
             ],
             [
-              -58.162782,
-              -26.124485
+              -58.1622,
+              -26.127237
             ],
             [
-              -58.174053,
-              -26.128222
+              -58.170269,
+              -26.129645
             ],
             [
-              -58.170678,
-              -26.136682
+              -58.168724,
+              -26.134018
             ]
           ]
         ]
@@ -1644,32 +1652,40 @@ window.BARRIOS_FORMOSA_GEOJSON = {
         "description": "Extenso barrio residencial en la franja norte del Circuito Cinco.",
         "color": "#65A30D",
         "zoneColor": "#9333EA",
-        "centerLat": -26.12859,
-        "centerLon": -58.15671
+        "centerLat": -26.1278,
+        "centerLon": -58.1545
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.159408,
-              -26.132945
+              -58.160591,
+              -26.131476
             ],
             [
-              -58.151567,
-              -26.130345
+              -58.153403,
+              -26.12926
             ],
             [
-              -58.154005,
-              -26.124235
+              -58.148296,
+              -26.129145
             ],
             [
-              -58.161845,
-              -26.126835
+              -58.148253,
+              -26.124733
             ],
             [
-              -58.159408,
-              -26.132945
+              -58.154218,
+              -26.12481
+            ],
+            [
+              -58.162222,
+              -26.127353
+            ],
+            [
+              -58.160591,
+              -26.131476
             ]
           ]
         ]
@@ -1686,32 +1702,44 @@ window.BARRIOS_FORMOSA_GEOJSON = {
         "description": "Sector de expansión norte del Circuito Cinco.",
         "color": "#0D9488",
         "zoneColor": "#9333EA",
-        "centerLat": -26.12124,
-        "centerLon": -58.15381
+        "centerLat": -26.12297,
+        "centerLon": -58.15399
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.156945,
-              -26.12521
+              -58.154154,
+              -26.124733
             ],
             [
-              -58.148615,
-              -26.122447
+              -58.14821,
+              -26.124714
             ],
             [
-              -58.150678,
-              -26.117278
+              -58.148103,
+              -26.118606
             ],
             [
-              -58.159008,
-              -26.12004
+              -58.154626,
+              -26.11876
             ],
             [
-              -58.156945,
-              -26.12521
+              -58.154604,
+              -26.123057
+            ],
+            [
+              -58.159411,
+              -26.124636
+            ],
+            [
+              -58.15881,
+              -26.126274
+            ],
+            [
+              -58.154154,
+              -26.124733
             ]
           ]
         ]
@@ -1728,32 +1756,32 @@ window.BARRIOS_FORMOSA_GEOJSON = {
         "description": "Uno de los barrios principales del sector este del Circuito Cinco.",
         "color": "#9333EA",
         "zoneColor": "#9333EA",
-        "centerLat": -26.13534,
-        "centerLon": -58.1554
+        "centerLat": -26.13516,
+        "centerLon": -58.1557
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.157272,
-              -26.139688
+              -58.158703,
+              -26.141165
             ],
             [
-              -58.150903,
-              -26.137575
+              -58.149326,
+              -26.138064
             ],
             [
-              -58.153528,
-              -26.130995
+              -58.152609,
+              -26.129222
             ],
             [
-              -58.159897,
-              -26.133108
+              -58.162158,
+              -26.132208
             ],
             [
-              -58.157272,
-              -26.139688
+              -58.158703,
+              -26.141165
             ]
           ]
         ]
@@ -1770,32 +1798,32 @@ window.BARRIOS_FORMOSA_GEOJSON = {
         "description": "Complejo habitacional y barriada ubicada al este de Simón Bolívar en el Circuito Cinco.",
         "color": "#E11D48",
         "zoneColor": "#9333EA",
-        "centerLat": -26.13363,
-        "centerLon": -58.15026
+        "centerLat": -26.13352,
+        "centerLon": -58.15007
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.150903,
-              -26.137575
+              -58.149283,
+              -26.138044
             ],
             [
-              -58.146983,
-              -26.136275
+              -58.147717,
+              -26.137524
             ],
             [
-              -58.149608,
-              -26.129695
+              -58.150806,
+              -26.129222
             ],
             [
-              -58.153528,
-              -26.130995
+              -58.152459,
+              -26.129299
             ],
             [
-              -58.150903,
-              -26.137575
+              -58.149283,
+              -26.138044
             ]
           ]
         ]
@@ -1810,34 +1838,34 @@ window.BARRIOS_FORMOSA_GEOJSON = {
         "zone": "Circuito Cinco (Zona Norte)",
         "limits": "Barrio 8 de Octubre, Barrio 8 de Marzo y corredor este del Circuito Cinco.",
         "description": "Barrio residencial situado entre los barrios 8 de Octubre y 8 de Marzo.",
-        "color": "#0284C7",
+        "color": "#0284c7",
         "zoneColor": "#9333EA",
-        "centerLat": -26.13234,
-        "centerLon": -58.14634
+        "centerLat": -26.13294,
+        "centerLon": -58.1464
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.146983,
-              -26.136275
+              -58.147674,
+              -26.137467
             ],
             [
-              -58.143062,
-              -26.134975
+              -58.142374,
+              -26.135887
             ],
             [
-              -58.145688,
-              -26.128395
+              -58.144777,
+              -26.129222
             ],
             [
-              -58.149608,
-              -26.129695
+              -58.150785,
+              -26.129202
             ],
             [
-              -58.146983,
-              -26.136275
+              -58.147674,
+              -26.137467
             ]
           ]
         ]
@@ -1854,32 +1882,32 @@ window.BARRIOS_FORMOSA_GEOJSON = {
         "description": "Sector residencial del extremo oriental del Circuito Cinco.",
         "color": "#CA8A04",
         "zoneColor": "#9333EA",
-        "centerLat": -26.13118,
-        "centerLon": -58.14125
+        "centerLat": -26.13184,
+        "centerLon": -58.13914
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.142688,
-              -26.135915
+              -58.142352,
+              -26.135887
             ],
             [
-              -58.136808,
-              -26.133965
+              -58.134027,
+              -26.133306
             ],
             [
-              -58.139808,
-              -26.126445
+              -58.135421,
+              -26.129029
             ],
             [
-              -58.145688,
-              -26.128395
+              -58.144755,
+              -26.129125
             ],
             [
-              -58.142688,
-              -26.135915
+              -58.142352,
+              -26.135887
             ]
           ]
         ]
@@ -1896,32 +1924,32 @@ window.BARRIOS_FORMOSA_GEOJSON = {
         "description": "Barrio residencial con trama urbanística renovada al sureste del Circuito Cinco.",
         "color": "#16A34A",
         "zoneColor": "#9333EA",
-        "centerLat": -26.14002,
-        "centerLon": -58.14382
+        "centerLat": -26.1411,
+        "centerLon": -58.1433
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.146432,
-              -26.144608
+              -58.144348,
+              -26.146347
             ],
             [
-              -58.138593,
-              -26.142008
+              -58.138833,
+              -26.14469
             ],
             [
-              -58.141218,
-              -26.135427
+              -58.142309,
+              -26.135887
             ],
             [
-              -58.149057,
-              -26.138027
+              -58.147695,
+              -26.137486
             ],
             [
-              -58.146432,
-              -26.144608
+              -58.144348,
+              -26.146347
             ]
           ]
         ]
@@ -2776,6 +2804,90 @@ window.BARRIOS_FORMOSA_GEOJSON = {
             [
               -58.199601,
               -26.202982
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "el-quebranto-936",
+        "numero": 63,
+        "name": "Barrio El Quebranto",
+        "zone": "Oeste y Corredor Gutnisky",
+        "limits": "Calles a definir en el panel editor",
+        "description": "Barrio agregado desde el Modo Editor.",
+        "color": "#bc10b6",
+        "zoneColor": "#059669",
+        "centerLat": -26.14219,
+        "centerLon": -58.14684
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.144358,
+              -26.146337
+            ],
+            [
+              -58.147717,
+              -26.137534
+            ],
+            [
+              -58.149261,
+              -26.138044
+            ],
+            [
+              -58.146043,
+              -26.146857
+            ],
+            [
+              -58.144358,
+              -26.146337
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "la-maroma-452",
+        "numero": 64,
+        "name": "Barrio La Maroma",
+        "zone": "Oeste y Corredor Gutnisky",
+        "limits": "Calles a definir en el panel editor",
+        "description": "Barrio agregado desde el Modo Editor.",
+        "color": "#10b981",
+        "zoneColor": "#059669",
+        "centerLat": -26.1533,
+        "centerLon": -58.14904
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.15587,
+              -26.150083
+            ],
+            [
+              -58.152115,
+              -26.159598
+            ],
+            [
+              -58.142073,
+              -26.156613
+            ],
+            [
+              -58.146086,
+              -26.146905
+            ],
+            [
+              -58.15587,
+              -26.150083
             ]
           ]
         ]
