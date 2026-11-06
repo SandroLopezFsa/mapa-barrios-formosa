@@ -4,7 +4,7 @@
     "city": "Formosa Capital",
     "province": "Formosa",
     "country": "Argentina",
-    "totalBarrios": 58,
+    "totalBarrios": 62,
     "sources": "OpenStreetMap (ODbL), Nominatim, Código Urbanístico Municipal de Formosa e IDEF"
   },
   "features": [
@@ -19,36 +19,36 @@
         "description": "Casco fundacional y microcentro administrativo, comercial e histórico de la Ciudad de Formosa alrededor de la Plaza San Martín.",
         "color": "#E63946",
         "zoneColor": "#2563EB",
-        "centerLat": -26.18364,
-        "centerLon": -58.16784
+        "centerLat": -26.18296,
+        "centerLon": -58.16738
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.169912,
-              -26.19284
+              -58.17088,
+              -26.193644
             ],
             [
-              -58.161876,
-              -26.190175
+              -58.158295,
+              -26.189524
             ],
             [
-              -58.163146,
-              -26.18421
+              -58.163059,
+              -26.181494
             ],
             [
-              -58.167957,
-              -26.174098
+              -58.16705,
+              -26.173349
             ],
             [
-              -58.176288,
-              -26.17686
+              -58.177607,
+              -26.176796
             ],
             [
-              -58.169912,
-              -26.19284
+              -58.17088,
+              -26.193644
             ]
           ]
         ]
@@ -65,32 +65,32 @@
         "description": "Tradicional barrio residencial del casco histórico noroeste, creado por Ordenanza 288/66.",
         "color": "#2A9D8F",
         "zoneColor": "#2563EB",
-        "centerLat": -26.18248,
-        "centerLon": -58.17959
+        "centerLat": -26.18252,
+        "centerLon": -58.18064
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.1829,
-              -26.1881
+              -58.183572,
+              -26.188157
             ],
             [
-              -58.1731,
-              -26.18485
+              -58.17426,
+              -26.185211
             ],
             [
-              -58.176288,
-              -26.17686
+              -58.177671,
+              -26.176834
             ],
             [
-              -58.186087,
-              -26.18011
+              -58.18707,
+              -26.179896
             ],
             [
-              -58.1829,
-              -26.1881
+              -58.183572,
+              -26.188157
             ]
           ]
         ]
@@ -107,32 +107,32 @@
         "description": "Barrio tradicional céntrico-residencial, sede de históricas instituciones educativas salesianas.",
         "color": "#E9C46A",
         "zoneColor": "#2563EB",
-        "centerLat": -26.19047,
-        "centerLon": -58.17641
+        "centerLat": -26.19093,
+        "centerLon": -58.17725
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.179712,
-              -26.19609
+              -58.180193,
+              -26.1966
             ],
             [
-              -58.169912,
-              -26.19284
+              -58.170977,
+              -26.193683
             ],
             [
-              -58.1731,
-              -26.18485
+              -58.17427,
+              -26.185249
             ],
             [
-              -58.1829,
-              -26.1881
+              -58.183551,
+              -26.188176
             ],
             [
-              -58.179712,
-              -26.19609
+              -58.180193,
+              -26.1966
             ]
           ]
         ]
@@ -149,32 +149,32 @@
         "description": "Histórico barrio fundacional conocido como la antigua Chacra 8, próximo al Regimiento de Infantería de Monte 29.",
         "color": "#F4A261",
         "zoneColor": "#2563EB",
-        "centerLat": -26.17148,
-        "centerLon": -58.17372
+        "centerLat": -26.17085,
+        "centerLon": -58.17466
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.176288,
-              -26.17686
+              -58.177575,
+              -26.176738
             ],
             [
-              -58.167957,
-              -26.174098
+              -58.16838,
+              -26.173734
             ],
             [
-              -58.171145,
-              -26.166108
+              -58.171685,
+              -26.164952
             ],
             [
-              -58.179475,
-              -26.16887
+              -58.181019,
+              -26.167957
             ],
             [
-              -58.176288,
-              -26.17686
+              -58.177575,
+              -26.176738
             ]
           ]
         ]
@@ -191,32 +191,32 @@
         "description": "Uno de los barrios residenciales más extensos y tradicionales al norte de la Av. González Lelong (Chacra 25).",
         "color": "#264653",
         "zoneColor": "#2563EB",
-        "centerLat": -26.17449,
-        "centerLon": -58.18278
+        "centerLat": -26.17396,
+        "centerLon": -58.18417
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.186087,
-              -26.18011
+              -58.187134,
+              -26.179819
             ],
             [
-              -58.176288,
-              -26.17686
+              -58.17765,
+              -26.176757
             ],
             [
-              -58.179475,
-              -26.16887
+              -58.18119,
+              -26.168072
             ],
             [
-              -58.189275,
-              -26.17212
+              -58.190696,
+              -26.171173
             ],
             [
-              -58.186087,
-              -26.18011
+              -58.187134,
+              -26.179819
             ]
           ]
         ]
@@ -233,32 +233,32 @@
         "description": "Sector tradicional inmediatamente al oeste de la Av. Pantaleón Gómez, conectado con el microcentro.",
         "color": "#8AB17D",
         "zoneColor": "#2563EB",
-        "centerLat": -26.18524,
-        "centerLon": -58.18792
+        "centerLat": -26.18486,
+        "centerLon": -58.18771
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.18976,
-              -26.190375
+              -58.188336,
+              -26.189726
             ],
             [
-              -58.1829,
-              -26.1881
+              -58.183765,
+              -26.188234
             ],
             [
-              -58.186087,
-              -26.18011
+              -58.187113,
+              -26.179983
             ],
             [
-              -58.192948,
-              -26.182385
+              -58.191619,
+              -26.181504
             ],
             [
-              -58.18976,
-              -26.190375
+              -58.188336,
+              -26.189726
             ]
           ]
         ]
@@ -273,34 +273,34 @@
         "zone": "Centro y Casco Histórico",
         "limits": "Av. Dr. Luis Gutnisky, Av. Pantaleón Gómez, calle José María Uriburu y Av. Antártida Argentina.",
         "description": "Barrio residencial consolidado en torno a la Plaza Intendente Borraspardo y la calle José María Uriburu.",
-        "color": "#B5838D",
+        "color": "#b5838d",
         "zoneColor": "#2563EB",
-        "centerLat": -26.1917,
-        "centerLon": -58.18701
+        "centerLat": -26.19194,
+        "centerLon": -58.18763
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.191125,
-              -26.195298
+              -58.191673,
+              -26.195647
             ],
             [
-              -58.181325,
-              -26.192048
+              -58.18192,
+              -26.19247
             ],
             [
-              -58.1829,
-              -26.1881
+              -58.183551,
+              -26.188186
             ],
             [
-              -58.1927,
-              -26.19135
+              -58.193389,
+              -26.191469
             ],
             [
-              -58.191125,
-              -26.195298
+              -58.191673,
+              -26.195647
             ]
           ]
         ]
@@ -317,32 +317,32 @@
         "description": "Histórica barriada semicéntrica de trazado en damero entre La Pilar y Av. Napoleón Uriburu.",
         "color": "#6D597A",
         "zoneColor": "#2563EB",
-        "centerLat": -26.19569,
-        "centerLon": -58.18542
+        "centerLat": -26.19612,
+        "centerLon": -58.18597
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.189512,
-              -26.19934
+              -58.190031,
+              -26.199709
             ],
             [
-              -58.179712,
-              -26.19609
+              -58.180268,
+              -26.196658
             ],
             [
-              -58.181325,
-              -26.192048
+              -58.181877,
+              -26.19247
             ],
             [
-              -58.191125,
-              -26.195298
+              -58.191694,
+              -26.195637
             ],
             [
-              -58.189512,
-              -26.19934
+              -58.190031,
+              -26.199709
             ]
           ]
         ]
@@ -357,34 +357,34 @@
         "zone": "Centro y Casco Histórico",
         "limits": "Av. Napoleón Uriburu, Av. 9 de Julio extendida, terraplén sur y calle Alfonso Ruggiero.",
         "description": "Emblemático barrio del sector sur-este del casco histórico, lindero a la ribera y a la Av. Napoleón Uriburu.",
-        "color": "#3A86FF",
+        "color": "#3a86ff",
         "zoneColor": "#2563EB",
-        "centerLat": -26.19517,
-        "centerLon": -58.16732
+        "centerLat": -26.19658,
+        "centerLon": -58.16451
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.171093,
-              -26.199617
+              -58.167458,
+              -26.202578
             ],
             [
-              -58.161293,
-              -26.196368
+              -58.157995,
+              -26.199401
             ],
             [
-              -58.163542,
-              -26.190728
+              -58.161728,
+              -26.190641
             ],
             [
-              -58.173342,
-              -26.193977
+              -58.170869,
+              -26.193683
             ],
             [
-              -58.171093,
-              -26.199617
+              -58.167458,
+              -26.202578
             ]
           ]
         ]
@@ -401,32 +401,32 @@
         "description": "Sector tradicional al sur de la Av. Napoleón Uriburu, sede del Centro de Salud Villa Hermosa.",
         "color": "#8338EC",
         "zoneColor": "#2563EB",
-        "centerLat": -26.19793,
-        "centerLon": -58.17565
+        "centerLat": -26.19798,
+        "centerLon": -58.17459
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.177952,
-              -26.201892
+              -58.178219,
+              -26.202347
             ],
             [
-              -58.171093,
-              -26.199617
+              -58.168874,
+              -26.199093
             ],
             [
-              -58.173342,
-              -26.193977
+              -58.170934,
+              -26.193741
             ],
             [
-              -58.180202,
-              -26.196252
+              -58.180332,
+              -26.196754
             ],
             [
-              -58.177952,
-              -26.201892
+              -58.178219,
+              -26.202347
             ]
           ]
         ]
@@ -443,32 +443,32 @@
         "description": "Barrio residencial ubicado al sur de la Av. Napoleón Uriburu, contiguo a Villa Hermosa y Barrio Obrero.",
         "color": "#FF006E",
         "zoneColor": "#2563EB",
-        "centerLat": -26.20021,
-        "centerLon": -58.18251
+        "centerLat": -26.201,
+        "centerLon": -58.18402
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.184812,
-              -26.204168
+              -58.187478,
+              -26.205177
             ],
             [
-              -58.177952,
-              -26.201892
+              -58.178219,
+              -26.202366
             ],
             [
-              -58.180202,
-              -26.196252
+              -58.180332,
+              -26.196715
             ],
             [
-              -58.187062,
-              -26.198528
+              -58.190063,
+              -26.199738
             ],
             [
-              -58.184812,
-              -26.204168
+              -58.187478,
+              -26.205177
             ]
           ]
         ]
@@ -485,32 +485,32 @@
         "description": "Importante y populoso barrio (antigua Villa Luisa), próximo a la Terminal de Ómnibus y la UNaF.",
         "color": "#FB5607",
         "zoneColor": "#059669",
-        "centerLat": -26.19697,
-        "centerLon": -58.19601
+        "centerLat": -26.19717,
+        "centerLon": -58.19646
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.199312,
-              -26.20259
+              -58.199537,
+              -26.202867
             ],
             [
-              -58.189512,
-              -26.19934
+              -58.190053,
+              -26.199729
             ],
             [
-              -58.1927,
-              -26.19135
+              -58.193411,
+              -26.191469
             ],
             [
-              -58.2025,
-              -26.1946
+              -58.202831,
+              -26.194617
             ],
             [
-              -58.199312,
-              -26.20259
+              -58.199537,
+              -26.202867
             ]
           ]
         ]
@@ -525,34 +525,34 @@
         "zone": "Oeste y Corredor Gutnisky",
         "limits": "Av. Arturo Frondizi, Av. J. M. de Pueyrredón, Av. Antártida Argentina sur, calle Alberti y Riacho Nº 6.",
         "description": "Tradicional barrio del sector sur-oeste situado al sur de Mariano Moreno, articulado por las avenidas Arturo Frondizi y Pueyrredón.",
-        "color": "#FFBE0B",
+        "color": "#ffbe0b",
         "zoneColor": "#059669",
-        "centerLat": -26.20338,
-        "centerLon": -58.19206
+        "centerLat": -26.20313,
+        "centerLon": -58.19405
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.197063,
-              -26.20823
+              -58.198121,
+              -26.206544
             ],
             [
-              -58.184812,
-              -26.204168
+              -58.188443,
+              -26.203271
             ],
             [
-              -58.187062,
-              -26.198528
+              -58.190074,
+              -26.199757
             ],
             [
-              -58.199312,
-              -26.20259
+              -58.199558,
+              -26.202944
             ],
             [
-              -58.197063,
-              -26.20823
+              -58.198121,
+              -26.206544
             ]
           ]
         ]
@@ -569,32 +569,32 @@
         "description": "Sector residencial ubicado sobre el corredor sur de la Av. Gutnisky y la calle Ayacucho, lindero al campus de la UNaF.",
         "color": "#06D6A0",
         "zoneColor": "#059669",
-        "centerLat": -26.20022,
-        "centerLon": -58.20581
+        "centerLat": -26.20034,
+        "centerLon": -58.20594
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.209112,
-              -26.20584
+              -58.209043,
+              -26.206005
             ],
             [
-              -58.199312,
-              -26.20259
+              -58.199558,
+              -26.202905
             ],
             [
-              -58.2025,
-              -26.1946
+              -58.202841,
+              -26.194607
             ],
             [
               -58.2123,
               -26.19785
             ],
             [
-              -58.209112,
-              -26.20584
+              -58.209043,
+              -26.206005
             ]
           ]
         ]
@@ -609,34 +609,34 @@
         "zone": "Oeste y Corredor Gutnisky",
         "limits": "Av. Dr. Luis Gutnisky, Av. Arturo Illia, Barrio Laura Vicuña y vías del FFCC.",
         "description": "Barrio consolidado sobre el corredor suroeste de la Av. Gutnisky entre Av. Illia y Ruta 11.",
-        "color": "#118AB2",
+        "color": "#118ab2",
         "zoneColor": "#059669",
-        "centerLat": -26.2029,
-        "centerLon": -58.21389
+        "centerLat": -26.20298,
+        "centerLon": -58.21391
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.215482,
-              -26.207953
+              -58.215555,
+              -26.208142
             ],
             [
-              -58.209112,
-              -26.20584
+              -58.209043,
+              -26.20613
             ],
             [
               -58.2123,
               -26.19785
             ],
             [
-              -58.21867,
-              -26.199963
+              -58.218752,
+              -26.199796
             ],
             [
-              -58.215482,
-              -26.207953
+              -58.215555,
+              -26.208142
             ]
           ]
         ]
@@ -653,32 +653,40 @@
         "description": "Sector residencial situado en la intersección del corredor Gutnisky y la Av. Gendarmería Nacional (Ruta 11).",
         "color": "#EF476F",
         "zoneColor": "#059669",
-        "centerLat": -26.20501,
-        "centerLon": -58.22026
+        "centerLat": -26.2043,
+        "centerLon": -58.22002
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.221852,
-              -26.210065
+              -58.219106,
+              -26.209162
             ],
             [
-              -58.215482,
-              -26.207953
+              -58.215566,
+              -26.208142
             ],
             [
-              -58.21867,
-              -26.199963
+              -58.218741,
+              -26.199806
             ],
             [
-              -58.22504,
-              -26.202075
+              -58.222196,
+              -26.201038
             ],
             [
-              -58.221852,
-              -26.210065
+              -58.22387,
+              -26.202405
+            ],
+            [
+              -58.220651,
+              -26.205254
+            ],
+            [
+              -58.219106,
+              -26.209162
             ]
           ]
         ]
@@ -693,34 +701,42 @@
         "zone": "Oeste y Corredor Gutnisky",
         "limits": "Av. Néstor Kirchner, Av. Antártida Argentina, Av. Italia y Av. Dr. Luis Gutnisky.",
         "description": "Complejo habitacional y residencial atravesado por la Av. Antártida Argentina y calle Corrientes.",
-        "color": "#073B4C",
+        "color": "#073b4c",
         "zoneColor": "#059669",
-        "centerLat": -26.18719,
-        "centerLon": -58.1938
+        "centerLat": -26.18446,
+        "centerLon": -58.19347
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.19466,
-              -26.192
+              -58.195084,
+              -26.1873
             ],
             [
-              -58.18976,
-              -26.190375
+              -58.192939,
+              -26.186626
             ],
             [
-              -58.192948,
-              -26.182385
+              -58.19369,
+              -26.184575
             ],
             [
-              -58.197848,
-              -26.18401
+              -58.190804,
+              -26.183622
             ],
             [
-              -58.19466,
-              -26.192
+              -58.19163,
+              -26.181504
+            ],
+            [
+              -58.196694,
+              -26.183141
+            ],
+            [
+              -58.195084,
+              -26.1873
             ]
           ]
         ]
@@ -735,34 +751,42 @@
         "zone": "Oeste y Corredor Gutnisky",
         "limits": "Av. Néstor Kirchner, calle Florentino Ameghino, Barrio Guadalupe y Barrio San Cayetano.",
         "description": "Tradicional sector residencial intermedio ubicado entre los corredores de Av. Kirchner y Av. Gutnisky.",
-        "color": "#7209B7",
+        "color": "#7209b7",
         "zoneColor": "#059669",
-        "centerLat": -26.18857,
-        "centerLon": -58.19797
+        "centerLat": -26.15427,
+        "centerLon": -58.17867
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.19809,
-              -26.193138
+              -58.184184,
+              -26.159146
             ],
             [
-              -58.19466,
-              -26.192
+              -58.172092,
+              -26.155265
             ],
             [
-              -58.197848,
-              -26.18401
+              -58.172822,
+              -26.154244
             ],
             [
-              -58.201278,
-              -26.185148
+              -58.17544,
+              -26.154571
             ],
             [
-              -58.19809,
-              -26.193138
+              -58.180525,
+              -26.15016
+            ],
+            [
+              -58.186941,
+              -26.15225
+            ],
+            [
+              -58.184184,
+              -26.159146
             ]
           ]
         ]
@@ -779,32 +803,32 @@
         "description": "Populoso barrio del sector centro-oeste entre las avenidas Gutnisky y Néstor Kirchner.",
         "color": "#F72585",
         "zoneColor": "#059669",
-        "centerLat": -26.19012,
-        "centerLon": -58.20262
+        "centerLat": -26.18876,
+        "centerLon": -58.19982
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.20397,
-              -26.195087
+              -58.202841,
+              -26.194376
             ],
             [
-              -58.19809,
-              -26.193138
+              -58.193443,
+              -26.191372
             ],
             [
-              -58.201278,
-              -26.185148
+              -58.196812,
+              -26.183112
             ],
             [
-              -58.207158,
-              -26.187098
+              -58.206189,
+              -26.186193
             ],
             [
-              -58.20397,
-              -26.195087
+              -58.202841,
+              -26.194376
             ]
           ]
         ]
@@ -821,32 +845,32 @@
         "description": "Sector residencial histórico situado sobre el eje de la Av. Néstor Kirchner hacia el oeste.",
         "color": "#4CC9F0",
         "zoneColor": "#059669",
-        "centerLat": -26.19239,
-        "centerLon": -58.20948
+        "centerLat": -26.19112,
+        "centerLon": -58.20705
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.21181,
-              -26.197688
+              -58.207862,
+              -26.196051
             ],
             [
-              -58.20397,
-              -26.195087
+              -58.20282,
+              -26.194472
             ],
             [
-              -58.207158,
-              -26.187098
+              -58.206232,
+              -26.186174
             ],
             [
-              -58.214998,
-              -26.189698
+              -58.211274,
+              -26.187791
             ],
             [
-              -58.21181,
-              -26.197688
+              -58.207862,
+              -26.196051
             ]
           ]
         ]
@@ -863,32 +887,32 @@
         "description": "Complejo habitacional planificado ubicado al norte de la Av. Néstor Kirchner.",
         "color": "#4361EE",
         "zoneColor": "#059669",
-        "centerLat": -26.18012,
-        "centerLon": -58.19413
+        "centerLat": -26.18009,
+        "centerLon": -58.19493
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.195887,
-              -26.18336
+              -58.196619,
+              -26.182987
             ],
             [
-              -58.190497,
-              -26.181573
+              -58.191608,
+              -26.181311
             ],
             [
-              -58.192372,
-              -26.176873
+              -58.193282,
+              -26.177239
             ],
             [
-              -58.197762,
-              -26.17866
+              -58.198217,
+              -26.178837
             ],
             [
-              -58.195887,
-              -26.18336
+              -58.196619,
+              -26.182987
             ]
           ]
         ]
@@ -905,32 +929,32 @@
         "description": "Tradicional barriada intermedia al oeste de San Francisco, recorrida por la arteria Trinidad González.",
         "color": "#3F37C9",
         "zoneColor": "#059669",
-        "centerLat": -26.17685,
-        "centerLon": -58.18989
+        "centerLat": -26.17625,
+        "centerLon": -58.19117
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.190497,
-              -26.181573
+              -58.191608,
+              -26.18134
             ],
             [
-              -58.186087,
-              -26.18011
+              -58.187145,
+              -26.179896
             ],
             [
-              -58.189275,
-              -26.17212
+              -58.190728,
+              -26.171125
             ],
             [
-              -58.193685,
-              -26.173583
+              -58.195181,
+              -26.172636
             ],
             [
-              -58.190497,
-              -26.181573
+              -58.191608,
+              -26.18134
             ]
           ]
         ]
@@ -947,8 +971,8 @@
         "description": "Complejo habitacional y barriada ubicada al norte de Parque Urbano, contigua al Barrio Evita.",
         "color": "#4895EF",
         "zoneColor": "#059669",
-        "centerLat": -26.17503,
-        "centerLon": -58.19644
+        "centerLat": -26.17574,
+        "centerLon": -58.19671
       },
       "geometry": {
         "type": "Polygon",
@@ -959,16 +983,16 @@
               -26.178823
             ],
             [
-              -58.192372,
-              -26.176873
+              -58.193303,
+              -26.177239
             ],
             [
-              -58.194622,
-              -26.171233
+              -58.195192,
+              -26.172646
             ],
             [
-              -58.200502,
-              -26.173183
+              -58.200095,
+              -26.174264
             ],
             [
               -58.198253,
@@ -987,34 +1011,34 @@
         "zone": "Oeste y Corredor Gutnisky",
         "limits": "Av. Néstor Kirchner, Barrio 2 de Abril, Av. Pueyrredón y Barrio Independencia / Parque Urbano.",
         "description": "Barrio residencial del sector oeste, colindante con el Barrio 2 de Abril y Parque Urbano.",
-        "color": "#560BAD",
+        "color": "#560bad",
         "zoneColor": "#059669",
-        "centerLat": -26.17949,
-        "centerLon": -58.20187
+        "centerLat": -26.17832,
+        "centerLon": -58.20139
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.203238,
-              -26.185797
+              -58.202391,
+              -26.179742
             ],
             [
-              -58.196378,
-              -26.183523
+              -58.196661,
+              -26.183093
             ],
             [
-              -58.200502,
-              -26.173183
+              -58.200181,
+              -26.174273
             ],
             [
-              -58.207362,
-              -26.175458
+              -58.206317,
+              -26.17616
             ],
             [
-              -58.203238,
-              -26.185797
+              -58.202391,
+              -26.179742
             ]
           ]
         ]
@@ -1071,34 +1095,34 @@
         "zone": "Norte Intermedio y Este",
         "limits": "Av. Sargento Cabral, Barrio San Francisco, Barrio Villa Lourdes y Av. Italia.",
         "description": "Tradicional barrio intermedio situado entre San Francisco y Villa Lourdes.",
-        "color": "#40916C",
+        "color": "#40916c",
         "zoneColor": "#D97706",
-        "centerLat": -26.16895,
-        "centerLon": -58.18693
+        "centerLat": -26.16772,
+        "centerLon": -58.18677
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.191235,
-              -26.17277
+              -58.190739,
+              -26.171153
             ],
             [
-              -58.180945,
-              -26.169358
+              -58.181319,
+              -26.16813
             ],
             [
-              -58.182632,
-              -26.165128
+              -58.181727,
+              -26.167032
             ],
             [
-              -58.192923,
-              -26.16854
+              -58.193314,
+              -26.164567
             ],
             [
-              -58.191235,
-              -26.17277
+              -58.190739,
+              -26.171153
             ]
           ]
         ]
@@ -1113,34 +1137,34 @@
         "zone": "Norte Intermedio y Este",
         "limits": "Av. Sargento Cabral, Av. Venezuela, Riacho Formosa y Barrio Vial.",
         "description": "Histórico y populoso barrio de la zona norte intermedia, próximo al paso hacia el Circuito Cinco.",
-        "color": "#2D6A4F",
+        "color": "#ee2020",
         "zoneColor": "#D97706",
-        "centerLat": -26.16377,
-        "centerLon": -58.18817
+        "centerLat": -26.16333,
+        "centerLon": -58.18844
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.192923,
-              -26.16854
+              -58.181684,
+              -26.167013
             ],
             [
-              -58.181162,
-              -26.16464
+              -58.184581,
+              -26.159329
             ],
             [
-              -58.183412,
-              -26.159
+              -58.194172,
+              -26.162449
             ],
             [
-              -58.195172,
-              -26.1629
+              -58.193314,
+              -26.164529
             ],
             [
-              -58.192923,
-              -26.16854
+              -58.181684,
+              -26.167013
             ]
           ]
         ]
@@ -1157,32 +1181,32 @@
         "description": "Sector residencial contiguo a Villa Lourdes y San Agustín, junto a la cuenca del Riacho Formosa.",
         "color": "#74C69D",
         "zoneColor": "#D97706",
-        "centerLat": -26.16467,
-        "centerLon": -58.17643
+        "centerLat": -26.16423,
+        "centerLon": -58.17711
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.179475,
-              -26.16887
+              -58.180869,
+              -26.167918
             ],
             [
-              -58.171145,
-              -26.166108
+              -58.171663,
+              -26.164952
             ],
             [
               -58.173395,
               -26.160468
             ],
             [
-              -58.181725,
-              -26.16323
+              -58.182521,
+              -26.163585
             ],
             [
-              -58.179475,
-              -26.16887
+              -58.180869,
+              -26.167918
             ]
           ]
         ]
@@ -1197,34 +1221,34 @@
         "zone": "Norte Intermedio y Este",
         "limits": "Av. Santa Bárbara, calle Díaz Roig, Barrio La Paz y ribera del Riacho Formosa.",
         "description": "Barrio consolidado del sector noreste, bordeando el curso del Riacho Formosa.",
-        "color": "#95D5B2",
+        "color": "#95d5b2",
         "zoneColor": "#D97706",
-        "centerLat": -26.15926,
-        "centerLon": -58.17776
+        "centerLat": -26.15962,
+        "centerLon": -58.17805
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.181725,
-              -26.16323
+              -58.182521,
+              -26.163527
             ],
             [
               -58.171925,
               -26.15998
             ],
             [
-              -58.1738,
-              -26.15528
+              -58.173573,
+              -26.155765
             ],
             [
-              -58.1836,
-              -26.15853
+              -58.184195,
+              -26.159194
             ],
             [
-              -58.181725,
-              -26.16323
+              -58.182521,
+              -26.163527
             ]
           ]
         ]
@@ -1535,32 +1559,32 @@
         "description": "Gran complejo habitacional (incluyendo las 742 Viviendas) en el sector norte del Circuito Cinco.",
         "color": "#4F46E5",
         "zoneColor": "#9333EA",
-        "centerLat": -26.1333,
-        "centerLon": -58.17813
+        "centerLat": -26.13245,
+        "centerLon": -58.17877
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.181832,
-              -26.139318
+              -58.182414,
+              -26.138179
             ],
             [
-              -58.171053,
-              -26.135742
+              -58.171899,
+              -26.134962
             ],
             [
-              -58.174428,
-              -26.127282
+              -58.174989,
+              -26.12664
             ],
             [
-              -58.185207,
-              -26.130858
+              -58.185761,
+              -26.130011
             ],
             [
-              -58.181832,
-              -26.139318
+              -58.182414,
+              -26.138179
             ]
           ]
         ]
@@ -1953,34 +1977,34 @@
         "zone": "Suroeste y Expansión Sur",
         "limits": "Av. Dr. Luis Gutnisky, Av. Arturo Illia, Av. Gendarmería Nacional (RN 11) y Barrio Divino Niño Jesús.",
         "description": "Tradicional barrio del sector oeste situado entre Av. Arturo Illia y la Ruta Nacional 11.",
-        "color": "#D946EF",
+        "color": "#d946ef",
         "zoneColor": "#E11D48",
-        "centerLat": -26.19516,
-        "centerLon": -58.21864
+        "centerLat": -26.19504,
+        "centerLon": -58.21908
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.2221,
-              -26.2011
+              -58.22211,
+              -26.200903
             ],
             [
-              -58.21181,
-              -26.197688
+              -58.212862,
+              -26.197745
             ],
             [
-              -58.215185,
-              -26.189228
+              -58.215791,
+              -26.189177
             ],
             [
-              -58.225475,
-              -26.19264
+              -58.225565,
+              -26.192335
             ],
             [
-              -58.2221,
-              -26.2011
+              -58.22211,
+              -26.200903
             ]
           ]
         ]
@@ -1997,32 +2021,32 @@
         "description": "Barrio residencial ubicado al norte del Barrio Liborsi y al este de la Ruta Nacional 11.",
         "color": "#EC4899",
         "zoneColor": "#E11D48",
-        "centerLat": -26.18726,
-        "centerLon": -58.22207
+        "centerLat": -26.18636,
+        "centerLon": -58.2224
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.225475,
-              -26.19264
+              -58.225554,
+              -26.192316
             ],
             [
-              -58.215675,
-              -26.18939
+              -58.21578,
+              -26.189168
             ],
             [
-              -58.218675,
-              -26.18187
+              -58.219278,
+              -26.180474
             ],
             [
-              -58.228475,
-              -26.18512
+              -58.228998,
+              -26.183478
             ],
             [
-              -58.225475,
-              -26.19264
+              -58.225554,
+              -26.192316
             ]
           ]
         ]
@@ -2039,20 +2063,20 @@
         "description": "Sector residencial en expansión ubicado al norte del Barrio Coluccio.",
         "color": "#f97316",
         "zoneColor": "#E11D48",
-        "centerLat": -26.184,
-        "centerLon": -58.21392
+        "centerLat": -26.18368,
+        "centerLon": -58.21404
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.215488,
-              -26.18986
+              -58.215716,
+              -26.189254
             ],
             [
-              -58.208627,
-              -26.187585
+              -58.208892,
+              -26.186925
             ],
             [
               -58.21239,
@@ -2063,8 +2087,8 @@
               -26.180378
             ],
             [
-              -58.215488,
-              -26.18986
+              -58.215716,
+              -26.189254
             ]
           ]
         ]
@@ -2117,38 +2141,38 @@
       "properties": {
         "id": "procrear-lote-110",
         "numero": 51,
-        "name": "Barrio PROCREAR / 28 de Junio (Ex Lote 110)",
+        "name": "Barrio PROCREAR",
         "zone": "Suroeste y Expansión Sur",
         "limits": "Av. Gendarmería Nacional (RN 11), Barrio Divino Niño Jesús y Barrio Salvador Gurrieri.",
         "description": "Desarrollo urbanístico y habitacional conocido históricamente como Lote 110 / PROCREAR.",
-        "color": "#10B981",
+        "color": "#10b981",
         "zoneColor": "#E11D48",
-        "centerLat": -26.1795,
-        "centerLon": -58.22517
+        "centerLat": -26.17765,
+        "centerLon": -58.2259
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.228475,
-              -26.18512
+              -58.228977,
+              -26.183478
             ],
             [
-              -58.218675,
-              -26.18187
+              -58.219321,
+              -26.180435
             ],
             [
-              -58.221863,
-              -26.17388
+              -58.222883,
+              -26.171827
             ],
             [
-              -58.231662,
-              -26.17713
+              -58.232431,
+              -26.17487
             ],
             [
-              -58.228475,
-              -26.18512
+              -58.228977,
+              -26.183478
             ]
           ]
         ]
@@ -2207,32 +2231,32 @@
         "description": "Barrio residencial ubicado al oeste de la Ruta Nacional Nº 11, contiguo al Lote 111.",
         "color": "#6366F1",
         "zoneColor": "#E11D48",
-        "centerLat": -26.19035,
-        "centerLon": -58.23221
+        "centerLat": -26.18951,
+        "centerLon": -58.2321
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.235765,
-              -26.196053
+              -58.235092,
+              -26.195454
             ],
             [
-              -58.225475,
-              -26.19264
+              -58.225565,
+              -26.192374
             ],
             [
-              -58.228662,
-              -26.18465
+              -58.229063,
+              -26.183459
             ],
             [
-              -58.238952,
-              -26.188063
+              -58.238676,
+              -26.186751
             ],
             [
-              -58.235765,
-              -26.196053
+              -58.235092,
+              -26.195454
             ]
           ]
         ]
@@ -2249,32 +2273,32 @@
         "description": "Sector residencial situado frente al acceso suroeste sobre la Ruta Nacional Nº 11.",
         "color": "#8B5CF6",
         "zoneColor": "#E11D48",
-        "centerLat": -26.19996,
-        "centerLon": -58.2331
+        "centerLat": -26.19817,
+        "centerLon": -58.22863
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.23778,
-              -26.2063
+              -58.231745,
+              -26.204003
             ],
             [
-              -58.22504,
-              -26.202075
+              -58.222067,
+              -26.200942
             ],
             [
-              -58.228415,
-              -26.193615
+              -58.225586,
+              -26.192316
             ],
             [
-              -58.241155,
-              -26.19784
+              -58.235114,
+              -26.195416
             ],
             [
-              -58.23778,
-              -26.2063
+              -58.231745,
+              -26.204003
             ]
           ]
         ]
@@ -2291,32 +2315,32 @@
         "description": "Mega complejo habitacional planificado en el sector suroeste de la ciudad, con miles de viviendas, escuelas y centro de salud.",
         "color": "#F43F5E",
         "zoneColor": "#E11D48",
-        "centerLat": -26.20732,
-        "centerLon": -58.24486
+        "centerLat": -26.20746,
+        "centerLon": -58.24119
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.248947,
-              -26.215858
+              -58.247066,
+              -26.219635
             ],
             [
-              -58.235717,
-              -26.21147
+              -58.228097,
+              -26.213128
             ],
             [
-              -58.24078,
-              -26.19878
+              -58.235221,
+              -26.195416
             ],
             [
-              -58.25401,
-              -26.203168
+              -58.254361,
+              -26.201654
             ],
             [
-              -58.248947,
-              -26.215858
+              -58.247066,
+              -26.219635
             ]
           ]
         ]
@@ -2331,34 +2355,34 @@
         "zone": "Suroeste y Expansión Sur",
         "limits": "Av. Gendarmería Nacional (RN 11), cuenca del Riacho El Pucú, Barrio San Juan Bautista y zona Aeropuerto.",
         "description": "Sector residencial del sur de la ciudad, próximo al Riacho El Pucú y al Aeropuerto Internacional.",
-        "color": "#14B8A6",
+        "color": "#14b8a6",
         "zoneColor": "#E11D48",
-        "centerLat": -26.21269,
-        "centerLon": -58.20971
+        "centerLat": -26.21353,
+        "centerLon": -58.21178
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.215205,
-              -26.221165
+              -58.214321,
+              -26.220982
             ],
             [
-              -58.199525,
-              -26.215965
+              -58.204665,
+              -26.217748
             ],
             [
-              -58.204212,
-              -26.204215
+              -58.209085,
+              -26.206197
             ],
             [
-              -58.219892,
-              -26.209415
+              -58.219042,
+              -26.209201
             ],
             [
-              -58.215205,
-              -26.221165
+              -58.214321,
+              -26.220982
             ]
           ]
         ]
@@ -2563,6 +2587,194 @@
             [
               -58.245521,
               -26.169343
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ricardo-balbin-142",
+        "numero": 59,
+        "name": "Barrio Ricardo Balbin",
+        "zone": "Oeste y Corredor Gutnisky",
+        "limits": "Calles a definir en el panel editor",
+        "description": "Barrio agregado desde el Modo Editor.",
+        "color": "#10b981",
+        "zoneColor": "#059669",
+        "centerLat": -26.15734,
+        "centerLon": -58.19072
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.196898,
+              -26.155342
+            ],
+            [
+              -58.194194,
+              -26.16241
+            ],
+            [
+              -58.184581,
+              -26.159309
+            ],
+            [
+              -58.18722,
+              -26.152318
+            ],
+            [
+              -58.196898,
+              -26.155342
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "co-vi-fol-covifol-126",
+        "numero": 60,
+        "name": "Barrio CO.VI.FOL (Covifol)",
+        "zone": "Oeste y Corredor Gutnisky",
+        "limits": "Calles a definir en el panel editor",
+        "description": "Barrio agregado desde el Modo Editor.",
+        "color": "#10b981",
+        "zoneColor": "#059669",
+        "centerLat": -26.18718,
+        "centerLon": -58.19239
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.193486,
+              -26.191238
+            ],
+            [
+              -58.188422,
+              -26.189678
+            ],
+            [
+              -58.190793,
+              -26.183613
+            ],
+            [
+              -58.193679,
+              -26.184571
+            ],
+            [
+              -58.192896,
+              -26.186645
+            ],
+            [
+              -58.195079,
+              -26.187319
+            ],
+            [
+              -58.193486,
+              -26.191238
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bernardino-rivadavia-291",
+        "numero": 61,
+        "name": "Barrio Bernardino Rivadavia",
+        "zone": "Oeste y Corredor Gutnisky",
+        "limits": "Calles a definir en el panel editor",
+        "description": "Barrio agregado desde el Modo Editor.",
+        "color": "#10b981",
+        "zoneColor": "#059669",
+        "centerLat": -26.20194,
+        "centerLon": -58.15112
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.156128,
+              -26.188831
+            ],
+            [
+              -58.161578,
+              -26.190756
+            ],
+            [
+              -58.150892,
+              -26.216786
+            ],
+            [
+              -58.140421,
+              -26.213397
+            ],
+            [
+              -58.146601,
+              -26.199921
+            ],
+            [
+              -58.156128,
+              -26.188831
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "parque-industrial-774",
+        "numero": 62,
+        "name": "Barrio Parque Industrial",
+        "zone": "Oeste y Corredor Gutnisky",
+        "limits": "Calles a definir en el panel editor",
+        "description": "Barrio agregado desde el Modo Editor.",
+        "color": "#10B981",
+        "zoneColor": "#059669",
+        "centerLat": -26.21115,
+        "centerLon": -58.20136
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.199601,
+              -26.202982
+            ],
+            [
+              -58.209085,
+              -26.20612
+            ],
+            [
+              -58.203592,
+              -26.220443
+            ],
+            [
+              -58.198314,
+              -26.218634
+            ],
+            [
+              -58.199344,
+              -26.212165
+            ],
+            [
+              -58.198206,
+              -26.206534
+            ],
+            [
+              -58.199601,
+              -26.202982
             ]
           ]
         ]
