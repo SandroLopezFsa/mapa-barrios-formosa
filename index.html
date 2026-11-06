@@ -4,12 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mapa Interactivo de Barrios de Formosa Capital - Argentina</title>
-  <meta name="description" content="Mapa público e interactivo con la delimitación por colores de los 56 barrios de la Ciudad de Formosa Capital, Argentina. Construido con Leaflet y OpenStreetMap." />
+  <meta name="description" content="Mapa público e interactivo con la delimitación por colores de los barrios de la Ciudad de Formosa Capital, Argentina. Construido con Leaflet y OpenStreetMap." />
 
   <!-- Open Graph para compartir por WhatsApp, redes sociales y enlaces -->
   <meta name="referrer" content="origin-when-cross-origin" />
   <meta property="og:title" content="Mapa Interactivo de Barrios de Formosa Capital" />
-  <meta property="og:description" content="Explorá, buscá y compartí cada barrio de Formosa Capital delimitado por colores y zonas sobre OpenStreetMap." />
+  <meta property="og:description" content="Explorá, buscá, editá y compartí cada barrio de Formosa Capital delimitado por colores y zonas sobre OpenStreetMap." />
   <meta property="og:type" content="website" />
 
   <!-- Fuente Inter y Leaflet CSS -->
@@ -47,7 +47,7 @@
 
         <div class="filter-row">
           <select id="zoneSelect" class="select-control" aria-label="Filtrar por zona">
-            <option value="all">Todas las zonas (56)</option>
+            <option value="all">Todas las zonas</option>
             <option value="Centro y Casco Histórico">Centro y Casco Histórico</option>
             <option value="Oeste y Corredor Gutnisky">Oeste y Corredor Gutnisky</option>
             <option value="Norte Intermedio y Este">Norte Intermedio y Este</option>
@@ -77,7 +77,7 @@
       </div>
 
       <div class="stats-bar">
-        <span id="barriosCount">Mostrando 56 de 56 barrios</span>
+        <span id="barriosCount">Mostrando 57 barrios</span>
         <button type="button" class="btn-link" id="resetViewBtn">Ver toda la ciudad</button>
       </div>
 
@@ -87,23 +87,97 @@
         <button type="button" class="btn btn-primary" id="openShareModalBtn">
           🔗 Compartir Enlace
         </button>
-        <a href="barrios-formosa.geojson" download="barrios-formosa.geojson" class="btn">
+        <button type="button" class="btn" id="downloadGeojsonBtn">
           ⬇️ Descargar GeoJSON
-        </a>
+        </button>
       </div>
     </aside>
 
     <!-- Contenedor del Mapa -->
     <main class="map-wrapper">
       <button type="button" class="mobile-menu-btn" id="mobileMenuBtn">
-        ☰ Barrios (56)
+        ☰ Barrios
       </button>
 
       <div class="map-floating-bar">
+        <button type="button" class="floating-pill editor-toggle-btn" id="toggleEditorBtn" title="Activar o desactivar el editor visual de límites y nuevos barrios">
+          ✏️ Modo Editor
+        </button>
         <button type="button" class="floating-pill" id="fitCityBtn" title="Centrar mapa en Formosa Capital">
           🎯 Centrar Ciudad
         </button>
       </div>
+
+      <!-- Panel Flotante del Modo Editor -->
+      <section class="editor-panel" id="editorPanel" hidden aria-label="Editor de barrios">
+        <div class="editor-panel-header">
+          <strong>🛠️ Editor de Límites y Barrios</strong>
+          <span class="editor-badge" id="editorStatusBadge">Activo</span>
+        </div>
+
+        <p class="editor-help" id="editorHelpText">
+          • <b>Editar contorno:</b> Hacé clic en un barrio y arrastrá sus <b>puntos blancos</b>. Arrastrá los <b>puntos azules (+)</b> intermedios para crear nuevas esquinas. Clic derecho sobre un punto blanco lo borra.<br/>
+          • <b>Crear barrio:</b> Tocá <b>"➕ Dibujar Nuevo Barrio"</b> y hacé clic esquina por esquina en el mapa.
+        </p>
+
+        <div class="editor-actions-top">
+          <button type="button" class="btn btn-primary" id="startDrawBarrioBtn">
+            ➕ Dibujar Nuevo Barrio
+          </button>
+          <button type="button" class="btn btn-success" id="finishDrawBarrioBtn" hidden>
+            ✅ Terminar Dibujo
+          </button>
+          <button type="button" class="btn" id="cancelDrawBarrioBtn" hidden>
+            ✕ Cancelar
+          </button>
+        </div>
+
+        <!-- Formulario del barrio seleccionado -->
+        <div class="editor-form" id="editorBarrioForm" hidden>
+          <div class="editor-form-title">Barrio seleccionado:</div>
+          <label class="editor-field">
+            <span>Nombre del Barrio</span>
+            <input type="text" id="editNameInput" placeholder="Ej: Barrio Laguna Siam" />
+          </label>
+          <div class="editor-row-2">
+            <label class="editor-field">
+              <span>Zona</span>
+              <select id="editZoneInput">
+                <option value="Centro y Casco Histórico">Centro y Casco Histórico</option>
+                <option value="Oeste y Corredor Gutnisky">Oeste y Corredor Gutnisky</option>
+                <option value="Norte Intermedio y Este">Norte Intermedio y Este</option>
+                <option value="Circuito Cinco (Zona Norte)">Circuito Cinco (Zona Norte)</option>
+                <option value="Suroeste y Expansión Sur">Suroeste y Expansión Sur</option>
+              </select>
+            </label>
+            <label class="editor-field">
+              <span>Color</span>
+              <input type="color" id="editColorInput" value="#38bdf8" />
+            </label>
+          </div>
+          <label class="editor-field">
+            <span>Calles Límite / Referencias</span>
+            <input type="text" id="editLimitsInput" placeholder="Ej: Av. Frondizi, Av. Pueyrredón..." />
+          </label>
+          <label class="editor-field">
+            <span>Descripción breve</span>
+            <input type="text" id="editDescInput" placeholder="Descripción del barrio..." />
+          </label>
+          <div class="editor-row-2" style="margin-top: 6px;">
+            <button type="button" class="btn btn-primary" id="savePropsBtn">💾 Aplicar Datos</button>
+            <button type="button" class="btn btn-danger" id="deleteBarrioBtn">🗑️ Eliminar Barrio</button>
+          </div>
+        </div>
+
+        <div class="editor-footer-actions">
+          <button type="button" class="btn btn-publish" id="publishGithubBtn">
+            ☁️ Publicar Cambios en GitHub
+          </button>
+          <button type="button" class="btn" id="resetDefaultDataBtn" title="Descartar ediciones locales y volver a los datos publicados">
+            ↺ Restaurar Original
+          </button>
+        </div>
+      </section>
 
       <div id="map" role="region" aria-label="Mapa interactivo de los barrios de Formosa Capital"></div>
 
@@ -147,6 +221,22 @@
       <input type="text" id="shareUrlInput" readonly aria-label="Enlace para compartir" />
       <button type="button" class="btn btn-primary" id="copyShareUrlBtn">Copiar</button>
     </div>
+  </dialog>
+
+  <!-- Modal nativo para publicar en GitHub -->
+  <dialog class="share-dialog" id="githubDialog" closedby="any">
+    <div class="dialog-header">
+      <h3>☁️ Publicar Cambios en GitHub Pages</h3>
+      <button type="button" class="dialog-close" id="closeGithubDialogBtn" aria-label="Cerrar">✕</button>
+    </div>
+    <p style="font-size: 0.83rem; color: var(--text-muted); line-height: 1.45;">
+      Ingresá tu <b>Personal Access Token (`ghp_...`)</b> de GitHub. Se guardará únicamente en tu navegador para actualizar directamente tu repositorio <code>SandroLopezFsa/mapa-barrios-formosa</code>:
+    </p>
+    <div class="share-url-row">
+      <input type="password" id="githubTokenInput" placeholder="ghp_..." aria-label="Token de GitHub" />
+      <button type="button" class="btn btn-primary" id="confirmPublishGithubBtn">Publicar Ahora</button>
+    </div>
+    <p id="githubPublishStatus" style="font-size: 0.8rem; color: #38bdf8; margin-top: 6px;"></p>
   </dialog>
 
   <!-- Toast de confirmación -->
