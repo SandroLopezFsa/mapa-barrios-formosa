@@ -2163,34 +2163,34 @@
         "zone": "Suroeste y Expansión Sur",
         "limits": "Av. Gendarmería Nacional (RN 11) oeste, calle Tomás Parkinson y Barrio 12 de Octubre.",
         "description": "Gran urbanización del sector oeste rebautizada por ordenanza municipal como Barrio Fray Salvador Gurrieri (ex Lote 111).",
-        "color": "#06B6D4",
+        "color": "#06b6d4",
         "zoneColor": "#E11D48",
-        "centerLat": -26.18135,
-        "centerLon": -58.23636
+        "centerLat": -26.18079,
+        "centerLon": -58.23562
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.239933,
-              -26.188388
+              -58.238751,
+              -26.186761
             ],
             [
-              -58.228662,
-              -26.18465
+              -58.229084,
+              -26.183564
             ],
             [
-              -58.232788,
-              -26.17431
+              -58.232474,
+              -26.174832
             ],
             [
-              -58.244058,
-              -26.178048
+              -58.242152,
+              -26.17799
             ],
             [
-              -58.239933,
-              -26.188388
+              -58.238751,
+              -26.186761
             ]
           ]
         ]
