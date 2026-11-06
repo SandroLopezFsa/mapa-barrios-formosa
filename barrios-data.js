@@ -5,7 +5,7 @@ window.BARRIOS_FORMOSA_GEOJSON = {
     "city": "Formosa Capital",
     "province": "Formosa",
     "country": "Argentina",
-    "totalBarrios": 56,
+    "totalBarrios": 57,
     "sources": "OpenStreetMap (ODbL), Nominatim, Código Urbanístico Municipal de Formosa e IDEF"
   },
   "features": [
@@ -520,13 +520,55 @@ window.BARRIOS_FORMOSA_GEOJSON = {
     {
       "type": "Feature",
       "properties": {
-        "id": "virgen-del-rosario",
+        "id": "laguna-siam",
         "numero": 13,
+        "name": "Barrio Laguna Siam",
+        "zone": "Oeste y Corredor Gutnisky",
+        "limits": "Av. Arturo Frondizi, Av. J. M. de Pueyrredón, Av. Antártida Argentina sur, calle Alberti y Riacho Nº 6.",
+        "description": "Tradicional barrio del sector sur-oeste situado al sur de Mariano Moreno, articulado por las avenidas Arturo Frondizi y Pueyrredón.",
+        "color": "#FFBE0B",
+        "zoneColor": "#059669",
+        "centerLat": -26.20338,
+        "centerLon": -58.19206
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.197063,
+              -26.20823
+            ],
+            [
+              -58.184812,
+              -26.204168
+            ],
+            [
+              -58.187062,
+              -26.198528
+            ],
+            [
+              -58.199312,
+              -26.20259
+            ],
+            [
+              -58.197063,
+              -26.20823
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "virgen-del-rosario",
+        "numero": 14,
         "name": "Barrio Virgen del Rosario (Villa del Rosario)",
         "zone": "Oeste y Corredor Gutnisky",
         "limits": "Av. Dr. Luis Gutnisky, Av. J. M. de Pueyrredón, Av. Arturo Illia y calle Ayacucho / sector UNaF.",
         "description": "Sector residencial ubicado sobre el corredor sur de la Av. Gutnisky y la calle Ayacucho, lindero al campus de la UNaF.",
-        "color": "#FFBE0B",
+        "color": "#06D6A0",
         "zoneColor": "#059669",
         "centerLat": -26.20022,
         "centerLon": -58.20581
@@ -563,12 +605,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "san-juan-bautista",
-        "numero": 14,
+        "numero": 15,
         "name": "Barrio San Juan Bautista",
         "zone": "Oeste y Corredor Gutnisky",
         "limits": "Av. Dr. Luis Gutnisky, Av. Arturo Illia, Barrio Laura Vicuña y vías del FFCC.",
         "description": "Barrio consolidado sobre el corredor suroeste de la Av. Gutnisky entre Av. Illia y Ruta 11.",
-        "color": "#06D6A0",
+        "color": "#118AB2",
         "zoneColor": "#059669",
         "centerLat": -26.2029,
         "centerLon": -58.21389
@@ -605,12 +647,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "laura-vicuna",
-        "numero": 15,
+        "numero": 16,
         "name": "Barrio Laura Vicuña",
         "zone": "Oeste y Corredor Gutnisky",
         "limits": "Av. Dr. Luis Gutnisky, Av. Gendarmería Nacional (RN 11), Barrio San Juan Bautista y sector sur.",
         "description": "Sector residencial situado en la intersección del corredor Gutnisky y la Av. Gendarmería Nacional (Ruta 11).",
-        "color": "#118AB2",
+        "color": "#EF476F",
         "zoneColor": "#059669",
         "centerLat": -26.20501,
         "centerLon": -58.22026
@@ -647,12 +689,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "guadalupe",
-        "numero": 16,
+        "numero": 17,
         "name": "Barrio Guadalupe",
         "zone": "Oeste y Corredor Gutnisky",
         "limits": "Av. Néstor Kirchner, Av. Antártida Argentina, Av. Italia y Av. Dr. Luis Gutnisky.",
         "description": "Complejo habitacional y residencial atravesado por la Av. Antártida Argentina y calle Corrientes.",
-        "color": "#EF476F",
+        "color": "#073B4C",
         "zoneColor": "#059669",
         "centerLat": -26.18719,
         "centerLon": -58.1938
@@ -689,12 +731,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "la-floresta",
-        "numero": 17,
+        "numero": 18,
         "name": "Barrio La Floresta",
         "zone": "Oeste y Corredor Gutnisky",
         "limits": "Av. Néstor Kirchner, calle Florentino Ameghino, Barrio Guadalupe y Barrio San Cayetano.",
         "description": "Tradicional sector residencial intermedio ubicado entre los corredores de Av. Kirchner y Av. Gutnisky.",
-        "color": "#073B4C",
+        "color": "#7209B7",
         "zoneColor": "#059669",
         "centerLat": -26.18857,
         "centerLon": -58.19797
@@ -731,12 +773,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "san-cayetano",
-        "numero": 18,
+        "numero": 19,
         "name": "Barrio San Cayetano",
         "zone": "Oeste y Corredor Gutnisky",
         "limits": "Av. Dr. Luis Gutnisky, Av. Néstor Kirchner, Av. Pueyrredón y Barrio La Floresta.",
         "description": "Populoso barrio del sector centro-oeste entre las avenidas Gutnisky y Néstor Kirchner.",
-        "color": "#7209B7",
+        "color": "#F72585",
         "zoneColor": "#059669",
         "centerLat": -26.19012,
         "centerLon": -58.20262
@@ -773,12 +815,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "coluccio",
-        "numero": 19,
+        "numero": 20,
         "name": "Barrio Coluccio",
         "zone": "Oeste y Corredor Gutnisky",
         "limits": "Av. Néstor Kirchner, calle O’Higgins, Av. Alicia Moreau de Justo y calle Sargento Acosta.",
         "description": "Sector residencial histórico situado sobre el eje de la Av. Néstor Kirchner hacia el oeste.",
-        "color": "#F72585",
+        "color": "#4CC9F0",
         "zoneColor": "#059669",
         "centerLat": -26.19239,
         "centerLon": -58.20948
@@ -815,12 +857,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "parque-urbano",
-        "numero": 20,
+        "numero": 21,
         "name": "Barrio Parque Urbano (I y II)",
         "zone": "Oeste y Corredor Gutnisky",
         "limits": "Av. Néstor Kirchner, Av. Italia, Barrio San Pedro y Barrio 2 de Abril.",
         "description": "Complejo habitacional planificado ubicado al norte de la Av. Néstor Kirchner.",
-        "color": "#4CC9F0",
+        "color": "#4361EE",
         "zoneColor": "#059669",
         "centerLat": -26.18012,
         "centerLon": -58.19413
@@ -857,12 +899,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "san-pedro",
-        "numero": 21,
+        "numero": 22,
         "name": "Barrio San Pedro",
         "zone": "Oeste y Corredor Gutnisky",
         "limits": "Av. Sargento Cabral, Av. Néstor Kirchner, calle Trinidad González y Barrio Parque Urbano.",
         "description": "Tradicional barriada intermedia al oeste de San Francisco, recorrida por la arteria Trinidad González.",
-        "color": "#4361EE",
+        "color": "#3F37C9",
         "zoneColor": "#059669",
         "centerLat": -26.17685,
         "centerLon": -58.18989
@@ -899,12 +941,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "2-de-abril",
-        "numero": 22,
+        "numero": 23,
         "name": "Barrio 2 de Abril",
         "zone": "Oeste y Corredor Gutnisky",
         "limits": "Av. Italia, Barrio Parque Urbano, Barrio Evita y calle Juan Manuel de Rosas.",
         "description": "Complejo habitacional y barriada ubicada al norte de Parque Urbano, contigua al Barrio Evita.",
-        "color": "#3F37C9",
+        "color": "#4895EF",
         "zoneColor": "#059669",
         "centerLat": -26.17503,
         "centerLon": -58.19644
@@ -941,12 +983,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "evita",
-        "numero": 23,
+        "numero": 24,
         "name": "Barrio Evita",
         "zone": "Oeste y Corredor Gutnisky",
         "limits": "Av. Néstor Kirchner, Barrio 2 de Abril, Av. Pueyrredón y Barrio Independencia / Parque Urbano.",
         "description": "Barrio residencial del sector oeste, colindante con el Barrio 2 de Abril y Parque Urbano.",
-        "color": "#4895EF",
+        "color": "#560BAD",
         "zoneColor": "#059669",
         "centerLat": -26.17949,
         "centerLon": -58.20187
@@ -983,12 +1025,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "emilio-tomas",
-        "numero": 24,
+        "numero": 25,
         "name": "Barrio Emilio Tomás",
         "zone": "Oeste y Corredor Gutnisky",
         "limits": "Av. Néstor Kirchner, Barrio Evita, Barrio Coluccio y Av. Laureano Maradona.",
         "description": "Sector residencial ubicado al norte del Barrio Coluccio y al oeste del Barrio Evita.",
-        "color": "#560BAD",
+        "color": "#52B788",
         "zoneColor": "#059669",
         "centerLat": -26.18199,
         "centerLon": -58.20781
@@ -1025,12 +1067,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "vial",
-        "numero": 25,
+        "numero": 26,
         "name": "Barrio Vial",
         "zone": "Norte Intermedio y Este",
         "limits": "Av. Sargento Cabral, Barrio San Francisco, Barrio Villa Lourdes y Av. Italia.",
         "description": "Tradicional barrio intermedio situado entre San Francisco y Villa Lourdes.",
-        "color": "#52B788",
+        "color": "#40916C",
         "zoneColor": "#D97706",
         "centerLat": -26.16895,
         "centerLon": -58.18693
@@ -1067,12 +1109,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "villa-lourdes",
-        "numero": 26,
+        "numero": 27,
         "name": "Barrio Villa Lourdes",
         "zone": "Norte Intermedio y Este",
         "limits": "Av. Sargento Cabral, Av. Venezuela, Riacho Formosa y Barrio Vial.",
         "description": "Histórico y populoso barrio de la zona norte intermedia, próximo al paso hacia el Circuito Cinco.",
-        "color": "#40916C",
+        "color": "#2D6A4F",
         "zoneColor": "#D97706",
         "centerLat": -26.16377,
         "centerLon": -58.18817
@@ -1109,12 +1151,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "la-paz",
-        "numero": 27,
+        "numero": 28,
         "name": "Barrio La Paz",
         "zone": "Norte Intermedio y Este",
         "limits": "Av. Venezuela, Barrio Villa Lourdes, Barrio San Agustín y defensas del Riacho Formosa.",
         "description": "Sector residencial contiguo a Villa Lourdes y San Agustín, junto a la cuenca del Riacho Formosa.",
-        "color": "#2D6A4F",
+        "color": "#74C69D",
         "zoneColor": "#D97706",
         "centerLat": -26.16467,
         "centerLon": -58.17643
@@ -1151,12 +1193,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "san-agustin",
-        "numero": 28,
+        "numero": 29,
         "name": "Barrio San Agustín",
         "zone": "Norte Intermedio y Este",
         "limits": "Av. Santa Bárbara, calle Díaz Roig, Barrio La Paz y ribera del Riacho Formosa.",
         "description": "Barrio consolidado del sector noreste, bordeando el curso del Riacho Formosa.",
-        "color": "#74C69D",
+        "color": "#95D5B2",
         "zoneColor": "#D97706",
         "centerLat": -26.15926,
         "centerLon": -58.17776
@@ -1193,12 +1235,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "urbanizacion-maradona",
-        "numero": 29,
+        "numero": 30,
         "name": "Barrio Urbanización Maradona",
         "zone": "Circuito Cinco (Zona Norte)",
         "limits": "Av. Laureano Maradona, Av. Ribereña, Barrio República Argentina y Riacho Formosa.",
         "description": "Sector residencial del ingreso sur al Circuito Cinco, articulado por la Av. Laureano Maradona.",
-        "color": "#95D5B2",
+        "color": "#D97706",
         "zoneColor": "#9333EA",
         "centerLat": -26.14741,
         "centerLon": -58.16612
@@ -1235,12 +1277,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "republica-argentina",
-        "numero": 30,
+        "numero": 31,
         "name": "Barrio República Argentina",
         "zone": "Circuito Cinco (Zona Norte)",
         "limits": "Av. Ana E. Elías de Cánepa, Av. Soldado Formoseño en Malvinas, Av. Dr. Ricardo Balbín y Barrio Eva Perón.",
         "description": "Uno de los barrios más grandes y activos del Circuito Cinco, con intenso movimiento comercial e institucional.",
-        "color": "#D97706",
+        "color": "#DC2626",
         "zoneColor": "#9333EA",
         "centerLat": -26.14091,
         "centerLon": -58.16095
@@ -1277,12 +1319,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "eva-peron",
-        "numero": 31,
+        "numero": 32,
         "name": "Barrio Eva Perón",
         "zone": "Circuito Cinco (Zona Norte)",
         "limits": "Av. Soldado Formoseño, Av. Eva Perón, Barrio República Argentina y Barrio Simón Bolívar.",
         "description": "Núcleo fundacional e histórico del Circuito Cinco, sede del Hospital Distrital 8 y el Centro Cívico Municipal.",
-        "color": "#DC2626",
+        "color": "#2563EB",
         "zoneColor": "#9333EA",
         "centerLat": -26.14215,
         "centerLon": -58.15185
@@ -1319,12 +1361,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "el-mirador",
-        "numero": 32,
+        "numero": 33,
         "name": "Barrio El Mirador",
         "zone": "Circuito Cinco (Zona Norte)",
         "limits": "Av. Laureano Maradona, Barrio República Argentina, Barrio El Porvenir y Barrio Urbanización Maradona.",
         "description": "Barrio residencial ubicado en el corazón del Circuito Cinco, al oeste de República Argentina.",
-        "color": "#2563EB",
+        "color": "#7C3AED",
         "zoneColor": "#9333EA",
         "centerLat": -26.14036,
         "centerLon": -58.16893
@@ -1361,12 +1403,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "el-porvenir",
-        "numero": 33,
+        "numero": 34,
         "name": "Barrio El Porvenir",
         "zone": "Circuito Cinco (Zona Norte)",
         "limits": "Av. Juan Domingo Perón, Barrio El Mirador, Barrio 1º de Mayo y Barrio Juan Domingo Perón.",
         "description": "Sector residencial consolidado del Circuito Cinco entre 1º de Mayo y El Mirador.",
-        "color": "#7C3AED",
+        "color": "#DB2777",
         "zoneColor": "#9333EA",
         "centerLat": -26.14162,
         "centerLon": -58.17592
@@ -1403,12 +1445,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "1-de-mayo",
-        "numero": 34,
+        "numero": 35,
         "name": "Barrio 1º de Mayo",
         "zone": "Circuito Cinco (Zona Norte)",
         "limits": "Av. Juan Domingo Perón, calle Cruz Roja Argentina, Barrio Luján y Barrio El Porvenir.",
         "description": "Barrio ubicado sobre el acceso occidental al Circuito Cinco, atravesado por la calle Cruz Roja Argentina.",
-        "color": "#DB2777",
+        "color": "#059669",
         "zoneColor": "#9333EA",
         "centerLat": -26.14311,
         "centerLon": -58.18365
@@ -1445,12 +1487,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "lujan",
-        "numero": 35,
+        "numero": 36,
         "name": "Barrio Nuestra Señora de Luján",
         "zone": "Circuito Cinco (Zona Norte)",
         "limits": "Av. Juan Domingo Perón, Av. Antenor Gauna, Barrio 1º de Mayo y Barrio Juan Domingo Perón.",
         "description": "Tradicional barriada del sector noroeste del Circuito Cinco.",
-        "color": "#059669",
+        "color": "#0891B2",
         "zoneColor": "#9333EA",
         "centerLat": -26.136,
         "centerLon": -58.18787
@@ -1487,12 +1529,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "juan-domingo-peron",
-        "numero": 36,
+        "numero": 37,
         "name": "Barrio Juan Domingo Perón",
         "zone": "Circuito Cinco (Zona Norte)",
         "limits": "Av. Juan Domingo Perón, Av. Antenor Gauna, Barrio 7 de Mayo y Barrio Luján.",
         "description": "Gran complejo habitacional (incluyendo las 742 Viviendas) en el sector norte del Circuito Cinco.",
-        "color": "#0891B2",
+        "color": "#4F46E5",
         "zoneColor": "#9333EA",
         "centerLat": -26.1333,
         "centerLon": -58.17813
@@ -1529,12 +1571,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "7-de-mayo",
-        "numero": 37,
+        "numero": 38,
         "name": "Barrio 7 de Mayo",
         "zone": "Circuito Cinco (Zona Norte)",
         "limits": "Av. Antenor Gauna, Barrio República Argentina, Barrio Juan Domingo Perón y Barrio Antenor Gauna.",
         "description": "Populoso barrio del norte del Circuito Cinco, vinculado por la Av. Antenor Gauna.",
-        "color": "#4F46E5",
+        "color": "#EA580C",
         "zoneColor": "#9333EA",
         "centerLat": -26.13058,
         "centerLon": -58.16673
@@ -1571,12 +1613,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "antenor-gauna",
-        "numero": 38,
+        "numero": 39,
         "name": "Barrio Antenor Gauna",
         "zone": "Circuito Cinco (Zona Norte)",
         "limits": "Av. Antenor Gauna, Barrio Simón Bolívar, Barrio 7 de Mayo y Barrio Monte Agudo.",
         "description": "Extenso barrio residencial en la franja norte del Circuito Cinco.",
-        "color": "#EA580C",
+        "color": "#65A30D",
         "zoneColor": "#9333EA",
         "centerLat": -26.12859,
         "centerLon": -58.15671
@@ -1613,12 +1655,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "monte-agudo",
-        "numero": 39,
+        "numero": 40,
         "name": "Barrio Monte Agudo",
         "zone": "Circuito Cinco (Zona Norte)",
         "limits": "Extremo noreste del Circuito Cinco, lindero a Barrio Antenor Gauna y Barrio 8 de Octubre.",
         "description": "Sector de expansión norte del Circuito Cinco.",
-        "color": "#65A30D",
+        "color": "#0D9488",
         "zoneColor": "#9333EA",
         "centerLat": -26.12124,
         "centerLon": -58.15381
@@ -1655,12 +1697,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "simon-bolivar",
-        "numero": 40,
+        "numero": 41,
         "name": "Barrio Simón Bolívar",
         "zone": "Circuito Cinco (Zona Norte)",
         "limits": "Av. Simón Bolívar, Barrio Eva Perón, Barrio Antenor Gauna y Barrio 8 de Octubre.",
         "description": "Uno de los barrios principales del sector este del Circuito Cinco.",
-        "color": "#0D9488",
+        "color": "#9333EA",
         "zoneColor": "#9333EA",
         "centerLat": -26.13534,
         "centerLon": -58.1554
@@ -1697,12 +1739,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "8-de-octubre",
-        "numero": 41,
+        "numero": 42,
         "name": "Barrio 8 de Octubre",
         "zone": "Circuito Cinco (Zona Norte)",
         "limits": "Barrio Simón Bolívar, Barrio 20 de Julio, Av. Antenor Gauna este y Barrio Eva Perón.",
         "description": "Complejo habitacional y barriada ubicada al este de Simón Bolívar en el Circuito Cinco.",
-        "color": "#9333EA",
+        "color": "#E11D48",
         "zoneColor": "#9333EA",
         "centerLat": -26.13363,
         "centerLon": -58.15026
@@ -1739,12 +1781,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "20-de-julio",
-        "numero": 42,
+        "numero": 43,
         "name": "Barrio 20 de Julio",
         "zone": "Circuito Cinco (Zona Norte)",
         "limits": "Barrio 8 de Octubre, Barrio 8 de Marzo y corredor este del Circuito Cinco.",
         "description": "Barrio residencial situado entre los barrios 8 de Octubre y 8 de Marzo.",
-        "color": "#E11D48",
+        "color": "#0284C7",
         "zoneColor": "#9333EA",
         "centerLat": -26.13234,
         "centerLon": -58.14634
@@ -1781,12 +1823,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "8-de-marzo",
-        "numero": 43,
+        "numero": 44,
         "name": "Barrio 8 de Marzo",
         "zone": "Circuito Cinco (Zona Norte)",
         "limits": "Extremo este del Circuito Cinco, contiguo al Barrio 20 de Julio y ribera norte.",
         "description": "Sector residencial del extremo oriental del Circuito Cinco.",
-        "color": "#0284C7",
+        "color": "#CA8A04",
         "zoneColor": "#9333EA",
         "centerLat": -26.13118,
         "centerLon": -58.14125
@@ -1823,12 +1865,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "las-orquideas",
-        "numero": 44,
+        "numero": 45,
         "name": "Barrio Las Orquídeas",
         "zone": "Circuito Cinco (Zona Norte)",
         "limits": "Sector sur-este del Circuito Cinco, contiguo al Barrio Eva Perón y Los Inmigrantes.",
         "description": "Barrio residencial con trama urbanística renovada al sureste del Circuito Cinco.",
-        "color": "#CA8A04",
+        "color": "#16A34A",
         "zoneColor": "#9333EA",
         "centerLat": -26.14002,
         "centerLon": -58.14382
@@ -1865,12 +1907,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "namqom",
-        "numero": 45,
+        "numero": 46,
         "name": "Barrio Namqom",
         "zone": "Circuito Cinco (Zona Norte)",
         "limits": "Ruta Nacional Nº 11 (Acceso Norte, Km 1185) y sector periurbano norte.",
         "description": "Histórica comunidad originaria Qom ubicada sobre el corredor de la Ruta Nacional Nº 11 en el acceso norte de la ciudad.",
-        "color": "#16A34A",
+        "color": "#C026D3",
         "zoneColor": "#9333EA",
         "centerLat": -26.11951,
         "centerLon": -58.22802
@@ -1907,12 +1949,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "liborsi",
-        "numero": 46,
+        "numero": 47,
         "name": "Barrio Liborsi",
         "zone": "Suroeste y Expansión Sur",
         "limits": "Av. Dr. Luis Gutnisky, Av. Arturo Illia, Av. Gendarmería Nacional (RN 11) y Barrio Divino Niño Jesús.",
         "description": "Tradicional barrio del sector oeste situado entre Av. Arturo Illia y la Ruta Nacional 11.",
-        "color": "#C026D3",
+        "color": "#D946EF",
         "zoneColor": "#E11D48",
         "centerLat": -26.19516,
         "centerLon": -58.21864
@@ -1949,12 +1991,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "divino-nino-jesus",
-        "numero": 47,
+        "numero": 48,
         "name": "Barrio Divino Niño Jesús",
         "zone": "Suroeste y Expansión Sur",
         "limits": "Av. Néstor Kirchner, Av. Gendarmería Nacional (RN 11), Barrio Liborsi y Barrio PROCREAR.",
         "description": "Barrio residencial ubicado al norte del Barrio Liborsi y al este de la Ruta Nacional 11.",
-        "color": "#D946EF",
+        "color": "#EC4899",
         "zoneColor": "#E11D48",
         "centerLat": -26.18726,
         "centerLon": -58.22207
@@ -1991,12 +2033,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "san-andres",
-        "numero": 48,
+        "numero": 49,
         "name": "Barrio San Andrés (I y II)",
         "zone": "Suroeste y Expansión Sur",
         "limits": "Av. Arturo Illia, Barrio Coluccio, Barrio Divino Niño Jesús y Barrio Lisbel Rivira.",
         "description": "Sector residencial en expansión ubicado al norte del Barrio Coluccio.",
-        "color": "#EC4899",
+        "color": "#F97316",
         "zoneColor": "#E11D48",
         "centerLat": -26.18332,
         "centerLon": -58.21421
@@ -2033,12 +2075,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "lisbel-rivira",
-        "numero": 49,
+        "numero": 50,
         "name": "Barrio Lisbel Rivira",
         "zone": "Suroeste y Expansión Sur",
         "limits": "Prolongación Av. Arturo Illia, Barrio San Andrés y sector noroeste de expansión.",
         "description": "Barrio residencial situado en la franja noroeste de expansión urbana.",
-        "color": "#F97316",
+        "color": "#84CC16",
         "zoneColor": "#E11D48",
         "centerLat": -26.173,
         "centerLon": -58.22
@@ -2075,12 +2117,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "procrear-lote-110",
-        "numero": 50,
+        "numero": 51,
         "name": "Barrio PROCREAR / 28 de Junio (Ex Lote 110)",
         "zone": "Suroeste y Expansión Sur",
         "limits": "Av. Gendarmería Nacional (RN 11), Barrio Divino Niño Jesús y Barrio Salvador Gurrieri.",
         "description": "Desarrollo urbanístico y habitacional conocido históricamente como Lote 110 / PROCREAR.",
-        "color": "#84CC16",
+        "color": "#10B981",
         "zoneColor": "#E11D48",
         "centerLat": -26.1795,
         "centerLon": -58.22517
@@ -2117,12 +2159,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "salvador-gurrieri-lote-111",
-        "numero": 51,
+        "numero": 52,
         "name": "Barrio Fray Salvador Gurrieri (Ex Lote 111)",
         "zone": "Suroeste y Expansión Sur",
         "limits": "Av. Gendarmería Nacional (RN 11) oeste, calle Tomás Parkinson y Barrio 12 de Octubre.",
         "description": "Gran urbanización del sector oeste rebautizada por ordenanza municipal como Barrio Fray Salvador Gurrieri (ex Lote 111).",
-        "color": "#10B981",
+        "color": "#06B6D4",
         "zoneColor": "#E11D48",
         "centerLat": -26.18135,
         "centerLon": -58.23636
@@ -2159,12 +2201,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "12-de-octubre",
-        "numero": 52,
+        "numero": 53,
         "name": "Barrio 12 de Octubre",
         "zone": "Suroeste y Expansión Sur",
         "limits": "Av. Gendarmería Nacional (RN 11), Barrio Salvador Gurrieri (Lote 111) y Barrio Sagrado Corazón.",
         "description": "Barrio residencial ubicado al oeste de la Ruta Nacional Nº 11, contiguo al Lote 111.",
-        "color": "#06B6D4",
+        "color": "#6366F1",
         "zoneColor": "#E11D48",
         "centerLat": -26.19035,
         "centerLon": -58.23221
@@ -2201,12 +2243,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "sagrado-corazon",
-        "numero": 53,
+        "numero": 54,
         "name": "Barrio Sagrado Corazón de María",
         "zone": "Suroeste y Expansión Sur",
         "limits": "Ruta Nacional Nº 11 (Rotonda de la Virgen), Barrio 12 de Octubre y Barrio La Nueva Formosa.",
         "description": "Sector residencial situado frente al acceso suroeste sobre la Ruta Nacional Nº 11.",
-        "color": "#6366F1",
+        "color": "#8B5CF6",
         "zoneColor": "#E11D48",
         "centerLat": -26.19996,
         "centerLon": -58.2331
@@ -2243,12 +2285,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "nueva-formosa",
-        "numero": 54,
+        "numero": 55,
         "name": "Barrio La Nueva Formosa",
         "zone": "Suroeste y Expansión Sur",
         "limits": "Ruta Nacional Nº 11, Av. Los Pumas, Barrio Sagrado Corazón y acceso al Aeropuerto El Pucú.",
         "description": "Mega complejo habitacional planificado en el sector suroeste de la ciudad, con miles de viviendas, escuelas y centro de salud.",
-        "color": "#8B5CF6",
+        "color": "#F43F5E",
         "zoneColor": "#E11D48",
         "centerLat": -26.20732,
         "centerLon": -58.24486
@@ -2285,12 +2327,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "san-jorge",
-        "numero": 55,
+        "numero": 56,
         "name": "Barrio San Jorge / El Pucú",
         "zone": "Suroeste y Expansión Sur",
         "limits": "Av. Gendarmería Nacional (RN 11), cuenca del Riacho El Pucú, Barrio San Juan Bautista y zona Aeropuerto.",
         "description": "Sector residencial del sur de la ciudad, próximo al Riacho El Pucú y al Aeropuerto Internacional.",
-        "color": "#F43F5E",
+        "color": "#14B8A6",
         "zoneColor": "#E11D48",
         "centerLat": -26.21269,
         "centerLon": -58.20971
@@ -2327,12 +2369,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "villa-del-carmen",
-        "numero": 56,
+        "numero": 57,
         "name": "Barrio Villa del Carmen",
         "zone": "Suroeste y Expansión Sur",
         "limits": "Ruta Nacional Nº 11 (Km 1164), Riacho San Hilario y sector periurbano sur.",
         "description": "Amplia jurisdicción barrial ubicada al sur de la ciudad sobre la Ruta Nacional Nº 11.",
-        "color": "#14B8A6",
+        "color": "#E63946",
         "zoneColor": "#E11D48",
         "centerLat": -26.25759,
         "centerLon": -58.25737
