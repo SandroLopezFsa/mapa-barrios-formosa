@@ -2038,10 +2038,10 @@ window.BARRIOS_FORMOSA_GEOJSON = {
         "zone": "Suroeste y Expansión Sur",
         "limits": "Av. Arturo Illia, Barrio Coluccio, Barrio Divino Niño Jesús y Barrio Lisbel Rivira.",
         "description": "Sector residencial en expansión ubicado al norte del Barrio Coluccio.",
-        "color": "#F97316",
+        "color": "#f97316",
         "zoneColor": "#E11D48",
-        "centerLat": -26.18332,
-        "centerLon": -58.21421
+        "centerLat": -26.184,
+        "centerLon": -58.21392
       },
       "geometry": {
         "type": "Polygon",
@@ -2056,12 +2056,12 @@ window.BARRIOS_FORMOSA_GEOJSON = {
               -26.187585
             ],
             [
-              -58.21294,
-              -26.176775
+              -58.21239,
+              -26.178163
             ],
             [
-              -58.2198,
-              -26.17905
+              -58.219171,
+              -26.180378
             ],
             [
               -58.215488,
@@ -2082,32 +2082,32 @@ window.BARRIOS_FORMOSA_GEOJSON = {
         "description": "Barrio residencial situado en la franja noroeste de expansión urbana.",
         "color": "#84CC16",
         "zoneColor": "#E11D48",
-        "centerLat": -26.173,
-        "centerLon": -58.22
+        "centerLat": -26.17014,
+        "centerLon": -58.218
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.22274,
-              -26.180025
+              -58.219235,
+              -26.180416
             ],
             [
-              -58.21294,
-              -26.176775
+              -58.209751,
+              -26.177258
             ],
             [
-              -58.217252,
-              -26.165965
+              -58.216681,
+              -26.159849
             ],
             [
-              -58.227052,
-              -26.169215
+              -58.226316,
+              -26.163046
             ],
             [
-              -58.22274,
-              -26.180025
+              -58.219235,
+              -26.180416
             ]
           ]
         ]
